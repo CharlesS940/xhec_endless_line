@@ -1,0 +1,8 @@
+data/waiting_times.csv filter=lfs diff=lfs merge=lfs -text
+data/attendance.csv filter=lfs diff=lfs merge=lfs -text
+data/entity_schedule.csv filter=lfs diff=lfs merge=lfs -text
+data/glossary.xlsx filter=lfs diff=lfs merge=lfs -text
+data/link_attraction_park.csv filter=lfs diff=lfs merge=lfs -text
+data/parade_night_show.xlsx filter=lfs diff=lfs merge=lfs -text
+data/waiting_times.csv filter=lfs diff=lfs merge=lfs -text
+data/weather_data.csv filter=lfs diff=lfs merge=lfs -text
