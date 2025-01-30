@@ -487,8 +487,8 @@ y = [pos_scaled[node][1] for node in attractions]
 
 # Create edge trace (static, no labels or numbers)
 edge_trace = go.Scatter(
-    x=sum([[pos_scaled[edge[0]][0], pos[edge[1]][0], None] for edge in PortAventura_park.G.edges], []),
-    y=sum([[pos_scaled[edge[0]][1], pos[edge[1]][1], None] for edge in PortAventura_park.G.edges], []),
+    x=sum([[pos_scaled[edge[0]][0], pos_scaled[edge[1]][0], None] for edge in PortAventura_park.G.edges], []),
+    y=sum([[pos_scaled[edge[0]][1], pos_scaled[edge[1]][1], None] for edge in PortAventura_park.G.edges], []),
     mode="lines",
     line=dict(width=1, color="gray"),
     hoverinfo="none"  # Prevents hover text on edges
