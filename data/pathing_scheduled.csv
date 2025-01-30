@@ -1,0 +1,1750 @@
+,attraction,arrival_time,departure_time
+0,Oz Theatre,11.0,11.28
+1,Flying Coaster,11.28,11.62
+2,Drop Tower,11.63,11.97
+3,Roller Coaster,12.0,12.58
+4,Inverted Coaster,12.58,13.42
+5,Circus Train,13.42,13.58
+6,Free Fall,13.58,14.83
+7,Power Tower,14.83,15.17
+8,Superman Ride,15.17,15.67
+9,Rapids Ride,15.67,15.83
+10,Inverted Coaster,11.0,11.33
+11,Go-Karts,11.33,12.17
+12,Circus Train,12.2,12.37
+13,Roller Coaster,12.4,12.98
+14,Inverted Coaster,12.98,13.82
+15,Gondola,13.82,14.15
+16,Monorail,14.15,15.4
+17,Roller Coaster,15.4,15.82
+18,Superman Ride,15.82,16.32
+19,Scooby Doo,16.32,17.07
+20,Superman Ride,17.07,17.18
+21,Pirate Ship,17.18,17.67
+22,Superman Ride,17.67,17.78
+23,Bungee Jump,10.0,10.33
+24,Flying Coaster,10.33,10.67
+25,Kiddie Coaster,10.68,11.02
+26,Roller Coaster,11.05,11.55
+27,Inverted Coaster,11.55,13.13
+28,Circus Train,13.13,13.3
+29,Free Fall,13.3,14.88
+30,Power Tower,14.88,15.22
+31,Superman Ride,15.22,15.72
+32,Rapids Ride,15.72,15.88
+33,Bungee Jump,15.88,16.22
+34,Sling Shot,16.22,16.55
+35,Gondola,16.55,16.97
+36,Top Spin,16.97,17.38
+37,Reverse Bungee,17.38,17.5
+38,Gondola,17.5,17.92
+39,Go-Karts,11.0,11.83
+40,Crazy Dance,11.83,12.17
+41,Giant Wheel,12.3,13.05
+42,Roller Coaster,13.1,13.52
+43,Inverted Coaster,13.52,13.85
+44,Monorail,13.85,15.1
+45,Circus Train,15.1,15.27
+46,Sling Shot,15.27,15.68
+47,Scooby Doo,15.68,16.43
+48,Kiddie Coaster,16.43,16.77
+49,Crazy Bus,16.77,17.1
+50,Sling Shot,17.1,17.43
+51,Circus Train,17.43,17.55
+52,Power Tower,17.55,17.88
+53,Merry Go Round,13.0,13.42
+54,Merry Go Round,13.42,13.83
+55,Bungee Jump,13.87,14.37
+56,Roller Coaster,14.4,14.82
+57,Reverse Bungee,14.82,14.93
+58,Free Fall,14.93,16.02
+59,Inverted Coaster,16.02,16.85
+60,Inverted Coaster,11.0,11.33
+61,Haunted House,11.33,11.67
+62,Flying Coaster,11.72,12.13
+63,Roller Coaster,12.18,12.77
+64,Inverted Coaster,12.77,13.6
+65,Gondola,13.6,13.93
+66,Monorail,13.93,15.18
+67,Roller Coaster,15.18,15.6
+68,Superman Ride,15.6,16.1
+69,Scooby Doo,16.1,16.85
+70,Superman Ride,16.85,16.97
+71,Pirate Ship,16.97,17.45
+72,Superman Ride,17.45,17.57
+73,Spiral Slide,17.57,17.85
+74,Flying Coaster,13.0,13.5
+75,Flying Coaster,13.5,13.92
+76,Go-Karts,13.93,14.85
+77,Roller Coaster,14.87,15.28
+78,Reverse Bungee,15.28,15.4
+79,Free Fall,15.4,16.48
+80,Spiral Slide,10.0,11.0
+81,Go-Karts,11.0,11.83
+82,Merry Go Round,11.87,12.2
+83,Roller Coaster,12.25,12.83
+84,Inverted Coaster,12.83,13.67
+85,Gondola,13.67,14.0
+86,Monorail,14.0,15.25
+87,Roller Coaster,15.25,15.67
+88,Superman Ride,15.67,16.17
+89,Scooby Doo,16.17,16.92
+90,Flying Coaster,11.0,11.33
+91,Circus Train,11.33,11.5
+92,Bungee Jump,11.52,11.85
+93,Roller Coaster,11.87,12.2
+94,Inverted Coaster,12.2,13.28
+95,Circus Train,13.28,13.45
+96,Free Fall,13.45,15.03
+97,Power Tower,15.03,15.37
+98,Superman Ride,15.37,15.87
+99,Free Fall,11.0,12.08
+100,Bungee Jump,12.08,12.42
+101,Merry Go Round,12.43,12.77
+102,Roller Coaster,12.8,13.22
+103,Inverted Coaster,13.22,14.05
+104,Gondola,14.05,14.38
+105,Monorail,14.38,15.63
+106,Drop Tower,14.0,14.42
+107,Go-Karts,14.42,15.33
+108,Circus Train,15.35,15.52
+109,Roller Coaster,15.57,16.15
+110,Sling Shot,16.15,16.48
+111,Giant Wheel,16.48,17.32
+112,Rapids Ride,17.32,17.43
+113,Spiral Slide,17.43,17.72
+114,Flying Coaster,14.0,14.67
+115,Rapids Ride,14.67,14.83
+116,Dizzy Dropper,14.85,15.18
+117,Roller Coaster,15.22,15.63
+118,Sling Shot,15.63,15.97
+119,Giant Wheel,15.97,16.8
+120,Rapids Ride,16.8,16.97
+121,Spinning Coaster,10.0,10.5
+122,Giant Wheel,10.5,11.17
+123,Oz Theatre,11.18,11.47
+124,Roller Coaster,11.52,11.85
+125,Inverted Coaster,11.85,13.43
+126,Circus Train,13.43,13.6
+127,Free Fall,13.6,14.85
+128,Kiddie Coaster,14.0,14.33
+129,Spinning Coaster,14.33,15.08
+130,Go-Karts,15.12,16.12
+131,Roller Coaster,16.15,16.73
+132,Power Tower,16.73,17.07
+133,Gondola,17.07,17.48
+134,Oz Theatre,17.48,17.9
+135,Go-Karts,14.0,14.92
+136,Flying Coaster,14.92,15.67
+137,Go-Karts,15.72,16.55
+138,Roller Coaster,16.57,16.98
+139,Power Tower,16.98,17.32
+140,Gondola,17.32,17.73
+141,Merry Go Round,10.0,10.33
+142,Merry Go Round,10.33,10.67
+143,Zipline,10.7,11.03
+144,Roller Coaster,11.05,11.55
+145,Inverted Coaster,11.55,13.13
+146,Circus Train,13.13,13.3
+147,Free Fall,13.3,14.88
+148,Power Tower,14.88,15.22
+149,Superman Ride,15.22,15.72
+150,Rapids Ride,15.72,15.88
+151,Bungee Jump,15.88,16.22
+152,Sling Shot,16.22,16.55
+153,Gondola,16.55,16.97
+154,Top Spin,16.97,17.38
+155,Reverse Bungee,17.38,17.5
+156,Gondola,17.5,17.92
+157,Flying Coaster,13.0,13.5
+158,Flying Coaster,13.5,13.92
+159,Kiddie Coaster,13.95,14.28
+160,Roller Coaster,14.33,14.75
+161,Reverse Bungee,14.75,14.87
+162,Free Fall,14.87,15.95
+163,Inverted Coaster,15.95,16.78
+164,Scooby Doo,16.78,17.53
+165,Kiddie Coaster,17.53,17.82
+166,Kiddie Coaster,10.0,10.33
+167,Flying Coaster,10.33,10.67
+168,Flying Coaster,10.68,11.02
+169,Roller Coaster,11.05,11.55
+170,Inverted Coaster,11.55,13.13
+171,Circus Train,13.13,13.3
+172,Free Fall,13.3,14.88
+173,Power Tower,14.88,15.22
+174,Superman Ride,15.22,15.72
+175,Rapids Ride,15.72,15.88
+176,Circus Train,11.0,11.17
+177,Superman Ride,11.17,11.67
+178,Merry Go Round,11.7,12.03
+179,Roller Coaster,12.07,12.65
+180,Inverted Coaster,12.65,13.48
+181,Gondola,13.48,13.82
+182,Monorail,13.82,15.07
+183,Roller Coaster,15.07,15.48
+184,Superman Ride,15.48,15.98
+185,Scooby Doo,15.98,16.73
+186,Superman Ride,16.73,16.85
+187,Water Ride,11.0,11.33
+188,Spinning Coaster,11.33,12.0
+189,Circus Train,12.05,12.22
+190,Roller Coaster,12.25,12.83
+191,Inverted Coaster,12.83,13.67
+192,Gondola,13.67,14.0
+193,Monorail,14.0,15.25
+194,Roller Coaster,15.25,15.67
+195,Superman Ride,15.67,16.17
+196,Scooby Doo,16.17,16.92
+197,Flying Coaster,14.0,14.67
+198,Rapids Ride,14.67,14.83
+199,Spinning Coaster,14.87,15.7
+200,Roller Coaster,15.72,16.3
+201,Sling Shot,16.3,16.63
+202,Giant Wheel,16.63,17.47
+203,Rapids Ride,17.47,17.58
+204,Spiral Slide,17.58,17.87
+205,Superman Ride,13.0,13.5
+206,Flying Coaster,13.5,13.92
+207,Go-Karts,14.05,14.97
+208,Roller Coaster,15.0,15.42
+209,Reverse Bungee,15.42,15.53
+210,Free Fall,15.53,16.62
+211,Inverted Coaster,16.62,16.73
+212,Flying Coaster,10.0,10.33
+213,Free Fall,10.33,11.25
+214,Flying Coaster,11.28,11.62
+215,Roller Coaster,11.65,11.98
+216,Inverted Coaster,11.98,13.57
+217,Circus Train,13.57,13.73
+218,Flying Coaster,13.0,13.5
+219,Bungee Jump,13.5,13.83
+220,Inverted Coaster,13.88,14.22
+221,Roller Coaster,14.27,14.68
+222,Reverse Bungee,14.68,14.8
+223,Free Fall,14.8,15.88
+224,Inverted Coaster,15.88,16.72
+225,Merry Go Round,12.0,12.33
+226,Merry Go Round,12.33,12.67
+227,Water Ride,12.68,13.1
+228,Roller Coaster,13.15,13.57
+229,Inverted Coaster,13.57,13.9
+230,Monorail,13.9,15.15
+231,Circus Train,15.15,15.32
+232,Sling Shot,15.32,15.73
+233,Scooby Doo,15.73,16.48
+234,Kiddie Coaster,16.48,16.82
+235,Flying Coaster,13.0,13.5
+236,Merry Go Round,13.5,13.92
+237,Merry Go Round,13.93,14.52
+238,Roller Coaster,14.55,14.97
+239,Reverse Bungee,14.97,15.08
+240,Free Fall,15.08,16.17
+241,Inverted Coaster,16.17,17.0
+242,Scooby Doo,17.0,17.67
+243,Kiddie Coaster,17.67,17.95
+244,Inverted Coaster,10.0,10.33
+245,Bungee Jump,10.33,10.67
+246,Rapids Ride,10.7,10.87
+247,Roller Coaster,10.88,11.38
+248,Crazy Dance,11.38,11.72
+249,Roller Coaster,11.72,12.05
+250,Spiral Slide,12.05,14.3
+251,Rapids Ride,14.3,14.47
+252,Rapids Ride,14.47,14.63
+253,Kiddie Coaster,14.63,14.97
+254,Inverted Coaster,11.0,11.33
+255,Go-Karts,11.33,12.17
+256,Bungee Jump,12.2,12.53
+257,Roller Coaster,12.55,12.97
+258,Inverted Coaster,12.97,13.8
+259,Gondola,13.8,14.13
+260,Monorail,14.13,15.38
+261,Roller Coaster,15.38,15.8
+262,Zipline,12.0,12.33
+263,Merry Go Round,12.33,12.67
+264,Spiral Slide,12.7,14.45
+265,Roller Coaster,14.48,14.9
+266,Reverse Bungee,14.9,15.02
+267,Inverted Coaster,13.0,13.83
+268,Free Fall,13.83,15.08
+269,Roller Coaster,15.1,15.52
+270,Roller Coaster,15.55,16.13
+271,Sling Shot,16.13,16.47
+272,Merry Go Round,12.0,12.33
+273,Giant Wheel,12.33,13.08
+274,Spinning Coaster,13.13,13.8
+275,Roller Coaster,13.82,14.23
+276,Inverted Coaster,14.23,14.57
+277,Monorail,14.57,15.9
+278,Circus Train,15.9,16.07
+279,Sling Shot,16.07,16.4
+280,Scooby Doo,16.4,17.15
+281,Kiddie Coaster,17.15,17.43
+282,Crazy Bus,17.43,17.77
+283,Bumper Cars,12.0,12.33
+284,Kiddie Coaster,12.33,12.67
+285,Flying Coaster,12.68,13.1
+286,Roller Coaster,13.12,13.53
+287,Inverted Coaster,13.53,13.87
+288,Monorail,13.87,15.12
+289,Circus Train,15.12,15.28
+290,Sling Shot,15.28,15.7
+291,Scooby Doo,15.7,16.45
+292,Kiddie Coaster,16.45,16.78
+293,Merry Go Round,11.0,11.33
+294,Flying Coaster,11.33,11.67
+295,Bumper Cars,11.72,12.05
+296,Roller Coaster,12.08,12.67
+297,Inverted Coaster,12.67,13.5
+298,Gondola,13.5,13.83
+299,Monorail,13.83,15.08
+300,Roller Coaster,15.08,15.5
+301,Superman Ride,15.5,16.0
+302,Scooby Doo,16.0,16.75
+303,Superman Ride,16.75,16.87
+304,Pirate Ship,16.87,17.35
+305,Superman Ride,17.35,17.47
+306,Spiral Slide,17.47,17.75
+307,Spinning Coaster,14.0,14.75
+308,Flying Coaster,14.75,15.5
+309,Bungee Jump,15.63,15.97
+310,Roller Coaster,15.98,16.57
+311,Sling Shot,16.57,16.9
+312,Giant Wheel,16.9,17.73
+313,Rapids Ride,17.73,17.85
+314,Kiddie Coaster,13.0,13.33
+315,Merry Go Round,13.33,13.75
+316,Giant Wheel,13.78,14.62
+317,Roller Coaster,14.67,15.08
+318,Reverse Bungee,15.08,15.2
+319,Free Fall,15.2,16.28
+320,Spinning Coaster,14.0,14.75
+321,Flying Coaster,14.75,15.5
+322,Merry Go Round,15.63,16.05
+323,Roller Coaster,16.07,16.65
+324,Power Tower,16.65,16.98
+325,Gondola,16.98,17.4
+326,Oz Theatre,17.4,17.82
+327,Bumper Cars,11.0,11.33
+328,Flying Coaster,11.33,11.67
+329,Swing Ride,11.68,12.6
+330,Roller Coaster,12.65,13.07
+331,Inverted Coaster,13.07,13.9
+332,Gondola,13.9,14.23
+333,Bumper Cars,14.0,14.33
+334,Spinning Coaster,14.33,15.08
+335,Bumper Cars,15.1,15.43
+336,Roller Coaster,15.45,15.87
+337,Sling Shot,15.87,16.2
+338,Giant Wheel,16.2,17.03
+339,Rapids Ride,17.03,17.15
+340,Spiral Slide,17.15,17.43
+341,Haunted House,17.43,17.77
+342,Flying Coaster,14.0,14.67
+343,Merry Go Round,14.67,15.25
+344,Merry Go Round,15.27,15.85
+345,Roller Coaster,15.9,16.48
+346,Sling Shot,16.48,16.82
+347,Giant Wheel,16.82,17.65
+348,Rapids Ride,17.65,17.77
+349,Spinning Coaster,11.0,11.67
+350,Rapids Ride,11.67,11.83
+351,Merry Go Round,11.87,12.2
+352,Roller Coaster,12.22,12.8
+353,Inverted Coaster,12.8,13.63
+354,Gondola,13.63,13.97
+355,Monorail,13.97,15.22
+356,Roller Coaster,15.22,15.63
+357,Superman Ride,15.63,16.13
+358,Scooby Doo,16.13,16.88
+359,Merry Go Round,10.0,10.33
+360,Flying Coaster,10.33,10.67
+361,Go-Karts,10.68,11.52
+362,Roller Coaster,11.55,11.88
+363,Inverted Coaster,11.88,13.47
+364,Circus Train,13.47,13.63
+365,Free Fall,13.63,14.88
+366,Drop Tower,14.0,14.42
+367,Spinning Coaster,14.42,15.17
+368,Merry Go Round,15.22,15.8
+369,Roller Coaster,15.85,16.43
+370,Sling Shot,16.43,16.77
+371,Giant Wheel,16.77,17.6
+372,Rapids Ride,17.6,17.72
+373,Merry Go Round,10.0,10.33
+374,Merry Go Round,10.33,10.67
+375,Merry Go Round,10.7,11.03
+376,Roller Coaster,11.07,11.57
+377,Inverted Coaster,11.57,13.15
+378,Circus Train,13.15,13.32
+379,Free Fall,13.32,14.9
+380,Merry Go Round,13.0,13.42
+381,Flying Coaster,13.42,13.92
+382,Go-Karts,13.97,14.88
+383,Roller Coaster,14.92,15.33
+384,Reverse Bungee,15.33,15.45
+385,Free Fall,15.45,16.53
+386,Inverted Coaster,16.53,16.65
+387,Scooby Doo,16.65,17.4
+388,Kiddie Coaster,17.4,17.68
+389,Circus Train,11.0,11.17
+390,Circus Train,11.17,11.33
+391,Merry Go Round,11.35,11.68
+392,Roller Coaster,11.85,12.18
+393,Inverted Coaster,12.18,13.27
+394,Circus Train,13.27,13.43
+395,Free Fall,13.43,15.02
+396,Power Tower,15.02,15.35
+397,Superman Ride,15.35,15.85
+398,Rapids Ride,15.85,16.02
+399,Bungee Jump,16.02,16.35
+400,Sling Shot,16.35,16.68
+401,Free Fall,10.0,10.92
+402,Flying Coaster,10.92,11.25
+403,Zipline,11.28,11.62
+404,Roller Coaster,11.65,11.98
+405,Inverted Coaster,11.98,13.57
+406,Circus Train,13.57,13.73
+407,Free Fall,13.73,14.98
+408,Power Tower,14.98,15.32
+409,Superman Ride,15.32,15.82
+410,Rapids Ride,15.82,15.98
+411,Bungee Jump,15.98,16.32
+412,Sling Shot,16.32,16.65
+413,Gondola,16.65,17.07
+414,Top Spin,17.07,17.48
+415,Reverse Bungee,17.48,17.6
+416,Flying Coaster,13.0,13.5
+417,Flying Coaster,13.5,13.92
+418,Bungee Jump,13.95,14.45
+419,Roller Coaster,14.47,14.88
+420,Reverse Bungee,14.88,15.0
+421,Free Fall,15.0,16.08
+422,Inverted Coaster,16.08,16.92
+423,Flying Coaster,13.0,13.5
+424,Giant Wheel,13.5,14.25
+425,Spinning Coaster,14.27,15.02
+426,Roller Coaster,15.05,15.47
+427,Sling Shot,15.47,15.88
+428,Giant Wheel,15.88,16.72
+429,Rapids Ride,16.72,16.88
+430,Circus Train,12.0,12.17
+431,Flying Coaster,12.17,12.58
+432,Giga Coaster,12.62,12.95
+433,Roller Coaster,12.98,13.4
+434,Inverted Coaster,13.4,14.23
+435,Gondola,14.23,14.57
+436,Monorail,14.57,15.9
+437,Roller Coaster,15.9,16.48
+438,Water Ride,11.0,11.33
+439,Spinning Coaster,11.33,12.0
+440,Zipline,12.02,12.35
+441,Roller Coaster,12.37,12.95
+442,Inverted Coaster,12.95,13.78
+443,Gondola,13.78,14.12
+444,Monorail,14.12,15.37
+445,Roller Coaster,15.37,15.78
+446,Superman Ride,15.78,16.28
+447,Merry Go Round,13.0,13.42
+448,Flying Coaster,13.42,13.92
+449,Water Ride,13.95,14.45
+450,Roller Coaster,14.48,14.9
+451,Reverse Bungee,14.9,15.02
+452,Free Fall,15.02,16.1
+453,Inverted Coaster,16.1,16.93
+454,Scooby Doo,16.93,17.68
+455,Kiddie Coaster,17.68,17.97
+456,Bungee Jump,10.0,10.33
+457,Flying Coaster,10.33,10.67
+458,Bumper Cars,10.7,11.03
+459,Roller Coaster,11.07,11.57
+460,Inverted Coaster,11.57,13.15
+461,Circus Train,13.15,13.32
+462,Circus Train,10.0,10.17
+463,Merry Go Round,10.17,10.5
+464,Go-Karts,10.67,11.5
+465,Roller Coaster,11.55,11.88
+466,Inverted Coaster,11.88,13.47
+467,Circus Train,13.47,13.63
+468,Free Fall,13.63,14.88
+469,Bungee Jump,14.0,14.5
+470,Haunted House,14.5,14.92
+471,Flying Coaster,14.95,15.7
+472,Roller Coaster,15.72,16.3
+473,Sling Shot,16.3,16.63
+474,Giant Wheel,16.63,17.47
+475,Rapids Ride,17.47,17.58
+476,Spiral Slide,17.58,17.87
+477,Haunted House,11.0,11.33
+478,Merry Go Round,11.33,11.67
+479,Superman Ride,11.7,12.2
+480,Roller Coaster,12.23,12.82
+481,Inverted Coaster,12.82,13.65
+482,Gondola,13.65,13.98
+483,Spinning Coaster,10.0,10.5
+484,Spinning Coaster,10.5,11.0
+485,Rapids Ride,11.02,11.18
+486,Roller Coaster,11.22,11.72
+487,Inverted Coaster,11.72,13.3
+488,Circus Train,13.3,13.47
+489,Flying Coaster,13.0,13.5
+490,Spiral Slide,13.5,15.25
+491,Go-Karts,15.27,16.27
+492,Roller Coaster,16.3,16.88
+493,Power Tower,16.88,17.22
+494,Gondola,17.22,17.63
+495,Go-Karts,10.0,11.0
+496,Flying Coaster,11.0,11.33
+497,Go-Karts,11.37,12.2
+498,Roller Coaster,12.23,12.82
+499,Inverted Coaster,12.82,13.65
+500,Gondola,13.65,13.98
+501,Merry Go Round,12.0,12.33
+502,Merry Go Round,12.33,12.67
+503,Flying Coaster,12.68,13.1
+504,Roller Coaster,13.13,13.55
+505,Inverted Coaster,13.55,13.88
+506,Monorail,13.88,15.13
+507,Circus Train,15.13,15.3
+508,Sling Shot,15.3,15.72
+509,Flying Coaster,14.0,14.67
+510,Merry Go Round,14.67,15.25
+511,Flying Coaster,15.28,16.03
+512,Roller Coaster,16.07,16.65
+513,Power Tower,16.65,16.98
+514,Gondola,16.98,17.4
+515,Oz Theatre,17.4,17.82
+516,Flying Coaster,13.0,13.5
+517,Bungee Jump,13.5,13.83
+518,Go-Karts,13.85,14.77
+519,Roller Coaster,14.78,15.2
+520,Reverse Bungee,15.2,15.32
+521,Free Fall,15.32,16.4
+522,Inverted Coaster,16.4,17.23
+523,Scooby Doo,17.23,17.9
+524,Merry Go Round,12.0,12.33
+525,Flying Coaster,12.33,12.75
+526,Bumper Cars,12.78,13.12
+527,Roller Coaster,13.13,13.55
+528,Inverted Coaster,13.55,13.88
+529,Monorail,13.88,15.13
+530,Circus Train,15.13,15.3
+531,Sling Shot,15.3,15.72
+532,Go-Karts,14.0,14.92
+533,Merry Go Round,14.92,15.5
+534,Bungee Jump,15.53,15.87
+535,Roller Coaster,15.92,16.5
+536,Sling Shot,16.5,16.83
+537,Giant Wheel,16.83,17.67
+538,Rapids Ride,17.67,17.78
+539,Merry Go Round,10.0,10.33
+540,Spinning Coaster,10.33,10.83
+541,Go-Karts,10.87,11.7
+542,Roller Coaster,11.75,12.08
+543,Inverted Coaster,12.08,13.17
+544,Circus Train,13.17,13.33
+545,Free Fall,13.33,14.92
+546,Power Tower,14.92,15.25
+547,Superman Ride,15.25,15.75
+548,Rapids Ride,15.75,15.92
+549,Spinning Coaster,10.0,10.5
+550,Giant Wheel,10.5,11.17
+551,Drop Tower,11.22,11.55
+552,Roller Coaster,11.57,11.9
+553,Inverted Coaster,11.9,13.48
+554,Circus Train,13.48,13.65
+555,Free Fall,13.65,14.9
+556,Giga Coaster,13.0,13.33
+557,Kiddie Coaster,13.33,13.67
+558,Go-Karts,13.7,14.62
+559,Roller Coaster,14.63,15.05
+560,Reverse Bungee,15.05,15.17
+561,Free Fall,15.17,16.25
+562,Water Ride,11.0,11.33
+563,Haunted House,11.33,11.67
+564,Flying Coaster,11.72,12.13
+565,Roller Coaster,12.15,12.73
+566,Inverted Coaster,12.73,13.57
+567,Gondola,13.57,13.9
+568,Spinning Coaster,14.0,14.75
+569,Circus Train,14.75,14.92
+570,Go-Karts,14.93,15.93
+571,Roller Coaster,15.97,16.55
+572,Sling Shot,16.55,16.88
+573,Giant Wheel,16.88,17.72
+574,Rapids Ride,17.72,17.83
+575,Merry Go Round,12.0,12.33
+576,Flying Coaster,12.33,12.75
+577,Haunted House,12.77,13.27
+578,Roller Coaster,13.28,13.7
+579,Inverted Coaster,13.7,14.03
+580,Monorail,14.03,15.28
+581,Circus Train,15.28,15.45
+582,Sling Shot,15.45,15.87
+583,Scooby Doo,15.87,16.62
+584,Kiddie Coaster,16.62,16.95
+585,Superman Ride,13.0,13.5
+586,Flying Coaster,13.5,13.92
+587,Spiral Slide,14.05,15.8
+588,Roller Coaster,15.83,16.42
+589,Sling Shot,16.42,16.75
+590,Giant Wheel,16.75,17.58
+591,Rapids Ride,17.58,17.7
+592,Bumper Cars,10.0,10.33
+593,Flying Coaster,10.33,10.67
+594,Flying Coaster,10.68,11.02
+595,Roller Coaster,11.03,11.53
+596,Inverted Coaster,11.53,13.12
+597,Circus Train,13.12,13.28
+598,Free Fall,13.28,14.87
+599,Power Tower,14.87,15.2
+600,Superman Ride,15.2,15.7
+601,Rapids Ride,15.7,15.87
+602,Bungee Jump,15.87,16.2
+603,Sling Shot,16.2,16.53
+604,Gondola,16.53,16.95
+605,Circus Train,14.0,14.17
+606,Go-Karts,14.17,15.08
+607,Merry Go Round,15.12,15.7
+608,Roller Coaster,15.73,16.32
+609,Sling Shot,16.32,16.65
+610,Giant Wheel,16.65,17.48
+611,Rapids Ride,17.48,17.6
+612,Spiral Slide,17.6,17.88
+613,Merry Go Round,13.0,13.42
+614,Go-Karts,13.42,14.33
+615,Circus Train,14.38,14.55
+616,Roller Coaster,14.57,14.98
+617,Reverse Bungee,14.98,15.1
+618,Free Fall,15.1,16.18
+619,Flying Coaster,10.0,10.33
+620,Merry Go Round,10.33,10.67
+621,Flying Coaster,10.7,11.03
+622,Roller Coaster,11.07,11.57
+623,Inverted Coaster,11.57,13.15
+624,Circus Train,13.15,13.32
+625,Free Fall,13.32,14.9
+626,Power Tower,14.9,15.23
+627,Superman Ride,15.23,15.73
+628,Rapids Ride,15.73,15.9
+629,Bungee Jump,15.9,16.23
+630,Sling Shot,16.23,16.57
+631,Gondola,16.57,16.98
+632,Top Spin,16.98,17.4
+633,Reverse Bungee,17.4,17.52
+634,Gondola,17.52,17.93
+635,Flying Coaster,10.0,10.33
+636,Flying Coaster,10.33,10.67
+637,Go-Karts,10.68,11.52
+638,Roller Coaster,11.55,11.88
+639,Inverted Coaster,11.88,13.47
+640,Circus Train,13.47,13.63
+641,Free Fall,13.63,14.88
+642,Flying Coaster,14.0,14.67
+643,Spinning Coaster,14.67,15.5
+644,Go-Karts,15.63,16.47
+645,Roller Coaster,16.48,17.07
+646,Power Tower,17.07,17.4
+647,Gondola,17.4,17.82
+648,Flying Coaster,10.0,10.33
+649,Dizzy Dropper,10.33,10.67
+650,Merry Go Round,10.7,11.03
+651,Roller Coaster,11.05,11.55
+652,Inverted Coaster,11.55,13.13
+653,Circus Train,13.13,13.3
+654,Flying Coaster,10.0,10.33
+655,Merry Go Round,10.33,10.67
+656,Go-Karts,10.7,11.53
+657,Roller Coaster,11.57,11.9
+658,Inverted Coaster,11.9,13.48
+659,Circus Train,13.48,13.65
+660,Free Fall,13.65,14.9
+661,Power Tower,14.9,15.23
+662,Superman Ride,15.23,15.73
+663,Rapids Ride,15.73,15.9
+664,Bungee Jump,15.9,16.23
+665,Sling Shot,16.23,16.57
+666,Gondola,16.57,16.98
+667,Top Spin,16.98,17.4
+668,Reverse Bungee,17.4,17.52
+669,Gondola,17.52,17.93
+670,Oz Theatre,10.0,10.28
+671,Giant Wheel,10.28,10.95
+672,Go-Karts,11.0,11.83
+673,Roller Coaster,11.87,12.2
+674,Inverted Coaster,12.2,13.28
+675,Circus Train,13.28,13.45
+676,Free Fall,13.45,15.03
+677,Power Tower,15.03,15.37
+678,Superman Ride,15.37,15.87
+679,Rapids Ride,15.87,16.03
+680,Bungee Jump,16.03,16.37
+681,Sling Shot,16.37,16.7
+682,Go-Karts,11.0,11.83
+683,Circus Train,11.83,12.0
+684,Bungee Jump,12.02,12.35
+685,Roller Coaster,12.38,12.97
+686,Inverted Coaster,12.97,13.8
+687,Gondola,13.8,14.13
+688,Drop Tower,14.0,14.42
+689,Flying Coaster,14.42,15.08
+690,Merry Go Round,15.13,15.72
+691,Roller Coaster,15.77,16.35
+692,Sling Shot,16.35,16.68
+693,Giant Wheel,16.68,17.52
+694,Rapids Ride,17.52,17.63
+695,Spiral Slide,17.63,17.92
+696,Merry Go Round,12.0,12.33
+697,Spinning Coaster,12.33,13.0
+698,Dizzy Dropper,13.05,13.38
+699,Roller Coaster,13.43,13.85
+700,Inverted Coaster,13.85,14.18
+701,Monorail,14.18,15.43
+702,Circus Train,15.43,15.6
+703,Sling Shot,15.6,15.93
+704,Scooby Doo,15.93,16.68
+705,Kiddie Coaster,16.68,17.02
+706,Crazy Bus,17.02,17.35
+707,Sling Shot,17.35,17.68
+708,Circus Train,17.68,17.8
+709,Flying Coaster,10.0,10.33
+710,Rapids Ride,10.33,10.5
+711,Flying Coaster,10.52,10.85
+712,Roller Coaster,10.88,11.38
+713,Crazy Dance,11.38,11.72
+714,Roller Coaster,11.72,12.05
+715,Spiral Slide,12.05,14.3
+716,Rapids Ride,14.3,14.47
+717,Rapids Ride,14.47,14.63
+718,Kiddie Coaster,14.63,14.97
+719,Inverted Coaster,14.97,15.8
+720,Roller Coaster,15.8,16.38
+721,Circus Train,16.38,16.55
+722,Merry Go Round,13.0,13.42
+723,Flying Coaster,13.42,13.92
+724,Circus Train,13.97,14.13
+725,Roller Coaster,14.18,14.6
+726,Reverse Bungee,14.6,14.72
+727,Free Fall,14.72,15.8
+728,Inverted Coaster,15.8,16.63
+729,Bungee Jump,10.0,10.33
+730,Flying Coaster,10.33,10.67
+731,Dizzy Dropper,10.7,11.03
+732,Roller Coaster,11.07,11.57
+733,Inverted Coaster,11.57,13.15
+734,Circus Train,13.15,13.32
+735,Free Fall,13.32,14.9
+736,Power Tower,14.9,15.23
+737,Superman Ride,15.23,15.73
+738,Rapids Ride,15.73,15.9
+739,Bungee Jump,15.9,16.23
+740,Sling Shot,16.23,16.57
+741,Flying Coaster,11.0,11.33
+742,Swing Ride,11.33,12.25
+743,Merry Go Round,12.28,12.62
+744,Roller Coaster,12.67,13.08
+745,Inverted Coaster,13.08,13.92
+746,Gondola,13.92,14.25
+747,Monorail,14.25,15.5
+748,Roller Coaster,15.5,15.92
+749,Haunted House,12.0,12.5
+750,Circus Train,12.5,12.67
+751,Spiral Slide,12.68,14.43
+752,Roller Coaster,14.47,14.88
+753,Reverse Bungee,14.88,15.0
+754,Free Fall,15.0,16.08
+755,Inverted Coaster,16.08,16.92
+756,Scooby Doo,16.92,17.67
+757,Kiddie Coaster,17.67,17.95
+758,Rapids Ride,10.0,10.17
+759,Merry Go Round,10.17,10.5
+760,Flying Coaster,10.53,10.87
+761,Roller Coaster,10.88,11.38
+762,Crazy Dance,11.38,11.72
+763,Roller Coaster,11.72,12.05
+764,Spiral Slide,12.05,14.3
+765,Rapids Ride,14.3,14.47
+766,Rapids Ride,14.47,14.63
+767,Kiddie Coaster,14.63,14.97
+768,Inverted Coaster,14.97,15.8
+769,Roller Coaster,15.8,16.38
+770,Circus Train,16.38,16.55
+771,Scooby Doo,16.55,17.3
+772,Sling Shot,17.3,17.63
+773,Flying Coaster,10.0,10.33
+774,Merry Go Round,10.33,10.67
+775,Flying Coaster,10.68,11.02
+776,Roller Coaster,11.05,11.55
+777,Inverted Coaster,11.55,13.13
+778,Circus Train,13.13,13.3
+779,Flying Coaster,11.0,11.33
+780,Spiral Slide,11.33,12.58
+781,Flying Coaster,12.63,13.05
+782,Roller Coaster,13.08,13.5
+783,Inverted Coaster,13.5,14.33
+784,Inverted Coaster,14.0,14.33
+785,Bungee Jump,14.33,14.83
+786,Merry Go Round,14.87,15.45
+787,Roller Coaster,15.48,15.9
+788,Sling Shot,15.9,16.23
+789,Giant Wheel,16.23,17.07
+790,Rapids Ride,17.07,17.18
+791,Spiral Slide,17.18,17.47
+792,Haunted House,17.47,17.8
+793,Flying Coaster,13.0,13.5
+794,Drop Tower,13.5,13.83
+795,Go-Karts,13.87,14.78
+796,Roller Coaster,14.82,15.23
+797,Reverse Bungee,15.23,15.35
+798,Free Fall,15.35,16.43
+799,Inverted Coaster,16.43,17.27
+800,Scooby Doo,17.27,17.93
+801,Flying Coaster,10.0,10.33
+802,Haunted House,10.33,10.67
+803,Flying Coaster,10.72,11.05
+804,Roller Coaster,11.08,11.58
+805,Inverted Coaster,11.58,13.17
+806,Circus Train,13.17,13.33
+807,Free Fall,13.33,14.92
+808,Power Tower,14.92,15.25
+809,Superman Ride,15.25,15.75
+810,Rapids Ride,15.75,15.92
+811,Bungee Jump,15.92,16.25
+812,Sling Shot,16.25,16.58
+813,Water Ride,10.0,10.17
+814,Spinning Coaster,10.17,10.67
+815,Merry Go Round,10.7,11.03
+816,Roller Coaster,11.07,11.57
+817,Inverted Coaster,11.57,13.15
+818,Circus Train,13.15,13.32
+819,Free Fall,13.32,14.9
+820,Power Tower,14.9,15.23
+821,Superman Ride,15.23,15.73
+822,Rapids Ride,15.73,15.9
+823,Bungee Jump,15.9,16.23
+824,Sling Shot,16.23,16.57
+825,Flying Coaster,12.0,12.42
+826,Go-Karts,12.42,13.33
+827,Kiddie Coaster,13.35,13.68
+828,Roller Coaster,13.72,14.13
+829,Inverted Coaster,14.13,14.47
+830,Monorail,14.47,15.72
+831,Circus Train,15.72,15.88
+832,Sling Shot,15.88,16.22
+833,Scooby Doo,16.22,16.97
+834,Kiddie Coaster,16.97,17.3
+835,Crazy Bus,17.3,17.63
+836,Go-Karts,11.0,11.83
+837,Merry Go Round,11.83,12.17
+838,Spinning Coaster,12.22,12.88
+839,Roller Coaster,12.9,13.32
+840,Inverted Coaster,13.32,14.15
+841,Gondola,14.15,14.48
+842,Monorail,14.48,15.73
+843,Roller Coaster,15.73,16.32
+844,Superman Ride,16.32,16.82
+845,Scooby Doo,16.82,17.57
+846,Superman Ride,17.57,17.68
+847,Flying Coaster,10.0,10.33
+848,Giant Wheel,10.33,11.0
+849,Go-Karts,11.03,11.87
+850,Roller Coaster,11.88,12.22
+851,Inverted Coaster,12.22,13.3
+852,Circus Train,13.3,13.47
+853,Himalaya Ride,14.0,14.33
+854,Spinning Coaster,14.33,15.08
+855,Spinning Coaster,15.12,15.95
+856,Roller Coaster,15.98,16.57
+857,Sling Shot,16.57,16.9
+858,Giant Wheel,16.9,17.73
+859,Rapids Ride,17.73,17.85
+860,Crazy Dance,12.0,12.33
+861,Flying Coaster,12.33,12.75
+862,Roller Coaster,12.77,13.18
+863,Roller Coaster,13.22,13.63
+864,Inverted Coaster,13.63,13.97
+865,Monorail,13.97,15.22
+866,Circus Train,15.22,15.38
+867,Sling Shot,15.38,15.8
+868,Inverted Coaster,14.0,14.33
+869,Flying Coaster,14.33,15.0
+870,Superman Ride,15.15,15.65
+871,Roller Coaster,15.78,16.37
+872,Sling Shot,16.37,16.7
+873,Giant Wheel,16.7,17.53
+874,Rapids Ride,17.53,17.65
+875,Spiral Slide,17.65,17.93
+876,Bumper Cars,11.0,11.33
+877,Flying Coaster,11.33,11.67
+878,Merry Go Round,11.68,12.02
+879,Roller Coaster,12.05,12.63
+880,Inverted Coaster,12.63,13.47
+881,Gondola,13.47,13.8
+882,Monorail,13.8,15.05
+883,Roller Coaster,15.05,15.47
+884,Superman Ride,15.47,15.97
+885,Scooby Doo,15.97,16.72
+886,Superman Ride,16.72,16.83
+887,Merry Go Round,12.0,12.33
+888,Kiddie Coaster,12.33,12.67
+889,Circus Train,12.72,12.88
+890,Roller Coaster,12.9,13.32
+891,Inverted Coaster,13.32,14.15
+892,Gondola,14.15,14.48
+893,Monorail,14.48,15.73
+894,Roller Coaster,15.73,16.32
+895,Superman Ride,16.32,16.82
+896,Scooby Doo,16.82,17.57
+897,Superman Ride,17.57,17.68
+898,Flying Coaster,11.0,11.33
+899,Spinning Coaster,11.33,12.0
+900,Flying Coaster,12.13,12.55
+901,Roller Coaster,12.68,13.1
+902,Inverted Coaster,13.1,13.93
+903,Gondola,13.93,14.27
+904,Monorail,14.27,15.52
+905,Roller Coaster,15.52,16.1
+906,Superman Ride,16.1,16.6
+907,Spinning Coaster,14.0,14.75
+908,Flying Coaster,14.75,15.5
+909,Go-Karts,15.63,16.47
+910,Roller Coaster,16.52,16.93
+911,Power Tower,16.93,17.27
+912,Gondola,17.27,17.68
+913,Spinning Coaster,10.0,10.5
+914,Merry Go Round,10.5,10.83
+915,Flying Coaster,10.88,11.22
+916,Roller Coaster,11.27,11.77
+917,Inverted Coaster,11.77,13.35
+918,Circus Train,13.35,13.52
+919,Free Fall,13.52,14.77
+920,Power Tower,14.77,15.1
+921,Superman Ride,15.1,15.6
+922,Rapids Ride,15.6,15.77
+923,Bungee Jump,15.77,16.1
+924,Sling Shot,16.1,16.43
+925,Gondola,16.43,16.85
+926,Flying Coaster,14.0,14.67
+927,Free Fall,14.67,15.75
+928,Himalaya Ride,15.8,16.13
+929,Roller Coaster,16.15,16.73
+930,Power Tower,16.73,17.07
+931,Gondola,17.07,17.48
+932,Oz Theatre,17.48,17.9
+933,Flying Coaster,11.0,11.33
+934,Flying Coaster,11.33,11.67
+935,Merry Go Round,11.72,12.05
+936,Roller Coaster,12.08,12.67
+937,Inverted Coaster,12.67,13.5
+938,Gondola,13.5,13.83
+939,Monorail,13.83,15.08
+940,Roller Coaster,15.08,15.5
+941,Superman Ride,15.5,16.0
+942,Scooby Doo,16.0,16.75
+943,Superman Ride,16.75,16.87
+944,Dizzy Dropper,10.0,10.33
+945,Spiral Slide,10.33,11.33
+946,Flying Coaster,11.38,11.72
+947,Roller Coaster,11.73,12.07
+948,Inverted Coaster,12.07,13.15
+949,Circus Train,13.15,13.32
+950,Free Fall,13.32,14.9
+951,Power Tower,14.9,15.23
+952,Superman Ride,15.23,15.73
+953,Rapids Ride,15.73,15.9
+954,Bungee Jump,15.9,16.23
+955,Sling Shot,16.23,16.57
+956,Gondola,16.57,16.98
+957,Top Spin,16.98,17.4
+958,Reverse Bungee,17.4,17.52
+959,Gondola,17.52,17.93
+960,Merry Go Round,11.0,11.33
+961,Go-Karts,11.33,12.17
+962,Spinning Coaster,12.2,12.87
+963,Roller Coaster,12.92,13.33
+964,Inverted Coaster,13.33,14.17
+965,Gondola,14.17,14.5
+966,Monorail,14.5,15.83
+967,Roller Coaster,15.83,16.42
+968,Superman Ride,16.42,16.92
+969,Scooby Doo,16.92,17.67
+970,Superman Ride,17.67,17.78
+971,Flying Coaster,11.0,11.33
+972,Go-Karts,11.33,12.17
+973,Merry Go Round,12.22,12.55
+974,Roller Coaster,12.6,13.02
+975,Inverted Coaster,13.02,13.85
+976,Gondola,13.85,14.18
+977,Monorail,14.18,15.43
+978,Roller Coaster,15.43,15.85
+979,Flying Coaster,14.0,14.67
+980,Giga Coaster,14.67,15.0
+981,Go-Karts,15.05,16.05
+982,Roller Coaster,16.07,16.65
+983,Power Tower,16.65,16.98
+984,Gondola,16.98,17.4
+985,Oz Theatre,17.4,17.82
+986,Circus Train,10.0,10.17
+987,Flying Coaster,10.17,10.5
+988,Giga Coaster,10.53,10.87
+989,Roller Coaster,10.88,11.38
+990,Crazy Dance,11.38,11.72
+991,Roller Coaster,11.72,12.05
+992,Spiral Slide,12.05,14.3
+993,Rapids Ride,14.3,14.47
+994,Rapids Ride,14.47,14.63
+995,Kiddie Coaster,14.63,14.97
+996,Inverted Coaster,14.97,15.8
+997,Roller Coaster,15.8,16.38
+998,Circus Train,16.38,16.55
+999,Merry Go Round,11.0,11.33
+1000,Go-Karts,11.33,12.17
+1001,Bungee Jump,12.2,12.53
+1002,Roller Coaster,12.57,12.98
+1003,Inverted Coaster,12.98,13.82
+1004,Gondola,13.82,14.15
+1005,Monorail,14.15,15.4
+1006,Roller Coaster,15.4,15.82
+1007,Superman Ride,15.82,16.32
+1008,Roller Coaster,14.0,14.42
+1009,Bumper Cars,14.42,14.75
+1010,Rapids Ride,14.77,14.93
+1011,Roller Coaster,14.98,15.4
+1012,Reverse Bungee,15.4,15.52
+1013,Free Fall,15.52,16.6
+1014,Inverted Coaster,16.6,16.72
+1015,Scooby Doo,16.72,17.47
+1016,Kiddie Coaster,17.47,17.75
+1017,Go-Karts,14.0,14.92
+1018,Spinning Coaster,14.92,15.75
+1019,Bungee Jump,15.78,16.12
+1020,Roller Coaster,16.15,16.73
+1021,Power Tower,16.73,17.07
+1022,Gondola,17.07,17.48
+1023,Oz Theatre,17.48,17.9
+1024,Inverted Coaster,10.0,10.33
+1025,Flying Coaster,10.33,10.67
+1026,Go-Karts,10.82,11.65
+1027,Roller Coaster,11.67,12.0
+1028,Inverted Coaster,12.0,13.08
+1029,Circus Train,13.08,13.25
+1030,Free Fall,13.25,14.83
+1031,Power Tower,14.83,15.17
+1032,Superman Ride,15.17,15.67
+1033,Rapids Ride,15.67,15.83
+1034,Inverted Coaster,14.0,14.33
+1035,Go-Karts,14.33,15.25
+1036,Flying Coaster,15.3,16.05
+1037,Roller Coaster,16.1,16.68
+1038,Power Tower,16.68,17.02
+1039,Gondola,17.02,17.43
+1040,Oz Theatre,17.43,17.85
+1041,Flying Coaster,11.0,11.33
+1042,Spiral Slide,11.33,12.58
+1043,Giant Wheel,12.62,13.37
+1044,Roller Coaster,13.4,13.82
+1045,Inverted Coaster,13.82,14.15
+1046,Spinning Coaster,11.0,11.67
+1047,Rapids Ride,11.67,11.83
+1048,Merry Go Round,11.88,12.22
+1049,Roller Coaster,12.23,12.82
+1050,Inverted Coaster,12.82,13.65
+1051,Gondola,13.65,13.98
+1052,Monorail,13.98,15.23
+1053,Roller Coaster,15.23,15.65
+1054,Superman Ride,15.65,16.15
+1055,Scooby Doo,16.15,16.9
+1056,Dizzy Dropper,10.0,10.33
+1057,Giant Wheel,10.33,11.0
+1058,Bumper Cars,11.03,11.37
+1059,Roller Coaster,11.4,11.9
+1060,Inverted Coaster,11.9,13.48
+1061,Circus Train,13.48,13.65
+1062,Inverted Coaster,11.0,11.33
+1063,Go-Karts,11.33,12.17
+1064,Spinning Coaster,12.22,12.88
+1065,Roller Coaster,12.93,13.35
+1066,Inverted Coaster,13.35,14.18
+1067,Gondola,14.18,14.52
+1068,Monorail,14.52,15.85
+1069,Roller Coaster,15.85,16.43
+1070,Superman Ride,16.43,16.93
+1071,Scooby Doo,16.93,17.68
+1072,Superman Ride,17.68,17.8
+1073,Flying Coaster,11.0,11.33
+1074,Bungee Jump,11.33,11.83
+1075,Bungee Jump,11.87,12.2
+1076,Roller Coaster,12.25,12.83
+1077,Inverted Coaster,12.83,13.67
+1078,Gondola,13.67,14.0
+1079,Monorail,14.0,15.25
+1080,Roller Coaster,15.25,15.67
+1081,Superman Ride,15.67,16.17
+1082,Scooby Doo,16.17,16.92
+1083,Drop Tower,14.0,14.42
+1084,Bungee Jump,14.42,14.92
+1085,Kiddie Coaster,14.95,15.28
+1086,Roller Coaster,15.32,15.73
+1087,Sling Shot,15.73,16.07
+1088,Giant Wheel,16.07,16.9
+1089,Rapids Ride,16.9,17.07
+1090,Spiral Slide,17.07,17.35
+1091,Haunted House,17.35,17.68
+1092,Flying Coaster,10.0,10.33
+1093,Circus Train,10.33,10.5
+1094,Inverted Coaster,10.53,10.87
+1095,Roller Coaster,10.9,11.4
+1096,Crazy Dance,11.4,11.73
+1097,Roller Coaster,11.73,12.07
+1098,Spiral Slide,12.07,14.32
+1099,Rapids Ride,14.32,14.48
+1100,Rapids Ride,14.48,14.65
+1101,Kiddie Coaster,14.65,14.98
+1102,Inverted Coaster,14.98,15.82
+1103,Roller Coaster,15.82,16.4
+1104,Circus Train,16.4,16.57
+1105,Scooby Doo,16.57,17.32
+1106,Sling Shot,17.32,17.65
+1107,Merry Go Round,13.0,13.42
+1108,Spinning Coaster,13.42,14.08
+1109,Haunted House,14.13,14.55
+1110,Roller Coaster,14.58,15.0
+1111,Reverse Bungee,15.0,15.12
+1112,Free Fall,15.12,16.2
+1113,Water Ride,13.0,13.42
+1114,Spinning Coaster,13.42,14.08
+1115,Inverted Coaster,14.12,14.45
+1116,Roller Coaster,14.48,14.9
+1117,Reverse Bungee,14.9,15.02
+1118,Free Fall,15.02,16.1
+1119,Inverted Coaster,16.1,16.93
+1120,Scooby Doo,16.93,17.68
+1121,Bungee Jump,12.0,12.33
+1122,Merry Go Round,12.33,12.67
+1123,Crazy Dance,12.68,13.02
+1124,Roller Coaster,13.05,13.47
+1125,Inverted Coaster,13.47,14.3
+1126,Monorail,14.3,15.55
+1127,Circus Train,15.55,15.72
+1128,Go-Karts,14.0,14.92
+1129,Merry Go Round,14.92,15.5
+1130,Bungee Jump,15.52,15.85
+1131,Roller Coaster,15.9,16.48
+1132,Sling Shot,16.48,16.82
+1133,Giant Wheel,16.82,17.65
+1134,Rapids Ride,17.65,17.77
+1135,Flying Coaster,13.0,13.5
+1136,Bungee Jump,13.5,13.83
+1137,Go-Karts,13.87,14.78
+1138,Roller Coaster,14.8,15.22
+1139,Reverse Bungee,15.22,15.33
+1140,Free Fall,15.33,16.42
+1141,Giant Wheel,10.0,10.67
+1142,Merry Go Round,10.67,11.0
+1143,Zipline,11.03,11.37
+1144,Roller Coaster,11.38,11.88
+1145,Inverted Coaster,11.88,13.47
+1146,Circus Train,13.47,13.63
+1147,Free Fall,13.63,14.88
+1148,Power Tower,14.88,15.22
+1149,Superman Ride,15.22,15.72
+1150,Rapids Ride,15.72,15.88
+1151,Flying Coaster,11.0,11.33
+1152,Haunted House,11.33,11.67
+1153,Merry Go Round,11.72,12.05
+1154,Roller Coaster,12.07,12.65
+1155,Inverted Coaster,12.65,13.48
+1156,Gondola,13.48,13.82
+1157,Monorail,13.82,15.07
+1158,Roller Coaster,15.07,15.48
+1159,Superman Ride,15.48,15.98
+1160,Scooby Doo,15.98,16.73
+1161,Superman Ride,16.73,16.85
+1162,Inverted Coaster,14.0,14.33
+1163,Giant Wheel,14.33,15.17
+1164,Water Ride,15.18,15.52
+1165,Roller Coaster,15.57,16.15
+1166,Sling Shot,16.15,16.48
+1167,Giant Wheel,16.48,17.32
+1168,Rapids Ride,17.32,17.43
+1169,Spiral Slide,17.43,17.72
+1170,Dizzy Dropper,13.0,13.33
+1171,Flying Coaster,13.33,13.83
+1172,Himalaya Ride,13.88,14.22
+1173,Roller Coaster,14.23,14.65
+1174,Reverse Bungee,14.65,14.77
+1175,Free Fall,14.77,15.85
+1176,Inverted Coaster,15.85,16.68
+1177,Scooby Doo,16.68,17.43
+1178,Kiddie Coaster,17.43,17.72
+1179,Bungee Jump,12.0,12.33
+1180,Swing Ride,12.33,13.25
+1181,Rapids Ride,13.3,13.47
+1182,Roller Coaster,13.5,13.92
+1183,Inverted Coaster,13.92,14.25
+1184,Monorail,14.25,15.5
+1185,Circus Train,15.5,15.67
+1186,Sling Shot,15.67,16.0
+1187,Scooby Doo,16.0,16.75
+1188,Kiddie Coaster,16.75,17.08
+1189,Crazy Bus,17.08,17.42
+1190,Sling Shot,17.42,17.75
+1191,Circus Train,17.75,17.87
+1192,Flying Coaster,11.0,11.33
+1193,Spinning Coaster,11.33,12.0
+1194,Merry Go Round,12.13,12.47
+1195,Roller Coaster,12.5,12.92
+1196,Inverted Coaster,12.92,13.75
+1197,Gondola,13.75,14.08
+1198,Monorail,14.08,15.33
+1199,Roller Coaster,15.33,15.75
+1200,Merry Go Round,12.0,12.33
+1201,Flying Coaster,12.33,12.75
+1202,Go-Karts,12.78,13.78
+1203,Roller Coaster,13.82,14.23
+1204,Inverted Coaster,14.23,14.57
+1205,Monorail,14.57,15.9
+1206,Dizzy Dropper,11.0,11.33
+1207,Flying Coaster,11.33,11.67
+1208,Rapids Ride,11.68,11.85
+1209,Roller Coaster,11.87,12.2
+1210,Inverted Coaster,12.2,13.28
+1211,Circus Train,13.28,13.45
+1212,Free Fall,13.45,15.03
+1213,Power Tower,15.03,15.37
+1214,Superman Ride,15.37,15.87
+1215,Rapids Ride,15.87,16.03
+1216,Bungee Jump,16.03,16.37
+1217,Sling Shot,16.37,16.7
+1218,Rapids Ride,10.0,10.17
+1219,Bungee Jump,10.17,10.5
+1220,Go-Karts,10.53,11.37
+1221,Roller Coaster,11.38,11.88
+1222,Inverted Coaster,11.88,13.47
+1223,Circus Train,13.47,13.63
+1224,Inverted Coaster,14.0,14.33
+1225,Flying Coaster,14.33,15.0
+1226,Merry Go Round,15.15,15.73
+1227,Roller Coaster,15.78,16.37
+1228,Sling Shot,16.37,16.7
+1229,Giant Wheel,16.7,17.53
+1230,Rapids Ride,17.53,17.65
+1231,Spiral Slide,17.65,17.93
+1232,Go-Karts,11.0,11.83
+1233,Rapids Ride,11.83,12.0
+1234,Giant Wheel,12.03,12.78
+1235,Roller Coaster,12.83,13.25
+1236,Inverted Coaster,13.25,14.08
+1237,Gondola,14.08,14.42
+1238,Monorail,14.42,15.67
+1239,Roller Coaster,15.67,16.25
+1240,Superman Ride,16.25,16.75
+1241,Flying Coaster,13.0,13.5
+1242,Flying Coaster,13.5,13.92
+1243,Go-Karts,13.95,14.87
+1244,Roller Coaster,14.88,15.3
+1245,Reverse Bungee,15.3,15.42
+1246,Free Fall,15.42,16.5
+1247,Inverted Coaster,16.5,17.33
+1248,Roller Coaster,14.0,14.42
+1249,Giant Wheel,14.42,15.25
+1250,Flying Coaster,15.27,16.02
+1251,Roller Coaster,16.03,16.62
+1252,Power Tower,16.62,16.95
+1253,Gondola,16.95,17.37
+1254,Oz Theatre,17.37,17.78
+1255,Go-Karts,10.0,11.0
+1256,Flying Coaster,11.0,11.33
+1257,Go-Karts,11.37,12.2
+1258,Roller Coaster,12.25,12.83
+1259,Inverted Coaster,12.83,13.67
+1260,Circus Train,11.0,11.17
+1261,Flying Coaster,11.17,11.5
+1262,Giant Wheel,11.52,12.35
+1263,Roller Coaster,12.4,12.98
+1264,Inverted Coaster,12.98,13.82
+1265,Gondola,13.82,14.15
+1266,Merry Go Round,12.0,12.33
+1267,Kiddie Coaster,12.33,12.67
+1268,Bumper Cars,12.72,13.05
+1269,Roller Coaster,13.08,13.5
+1270,Inverted Coaster,13.5,14.33
+1271,Monorail,14.33,15.58
+1272,Circus Train,15.58,15.75
+1273,Inverted Coaster,14.0,14.33
+1274,Go-Karts,14.33,15.25
+1275,Rapids Ride,15.3,15.47
+1276,Roller Coaster,15.5,15.92
+1277,Sling Shot,15.92,16.25
+1278,Giant Wheel,16.25,17.08
+1279,Rapids Ride,17.08,17.2
+1280,Spiral Slide,17.2,17.48
+1281,Haunted House,17.48,17.82
+1282,Merry Go Round,13.0,13.42
+1283,Merry Go Round,13.42,13.83
+1284,Flying Coaster,13.87,14.53
+1285,Roller Coaster,14.57,14.98
+1286,Reverse Bungee,14.98,15.1
+1287,Free Fall,15.1,16.18
+1288,Inverted Coaster,16.18,17.02
+1289,Scooby Doo,17.02,17.68
+1290,Merry Go Round,13.0,13.42
+1291,Kiddie Coaster,13.42,13.75
+1292,Giant Wheel,13.78,14.62
+1293,Roller Coaster,14.65,15.07
+1294,Reverse Bungee,15.07,15.18
+1295,Free Fall,15.18,16.27
+1296,Inverted Coaster,16.27,17.1
+1297,Scooby Doo,17.1,17.77
+1298,Free Fall,12.0,13.33
+1299,Go-Karts,13.33,14.25
+1300,Haunted House,14.3,14.72
+1301,Roller Coaster,14.75,15.17
+1302,Reverse Bungee,15.17,15.28
+1303,Free Fall,15.28,16.37
+1304,Inverted Coaster,16.37,17.2
+1305,Scooby Doo,17.2,17.87
+1306,Zipline,10.0,10.33
+1307,Drop Tower,10.33,10.67
+1308,Himalaya Ride,10.7,11.03
+1309,Roller Coaster,11.07,11.57
+1310,Inverted Coaster,11.57,13.15
+1311,Circus Train,13.15,13.32
+1312,Free Fall,13.32,14.9
+1313,Power Tower,14.9,15.23
+1314,Superman Ride,15.23,15.73
+1315,Rapids Ride,15.73,15.9
+1316,Flying Coaster,14.0,14.67
+1317,Flying Coaster,14.67,15.42
+1318,Merry Go Round,15.45,16.03
+1319,Roller Coaster,16.07,16.65
+1320,Power Tower,16.65,16.98
+1321,Gondola,16.98,17.4
+1322,Oz Theatre,17.4,17.82
+1323,Flying Coaster,13.0,13.5
+1324,Giant Wheel,13.5,14.25
+1325,Dizzy Dropper,14.3,14.63
+1326,Roller Coaster,14.67,15.08
+1327,Reverse Bungee,15.08,15.2
+1328,Free Fall,15.2,16.28
+1329,Spinning Coaster,14.0,14.75
+1330,Kiddie Coaster,14.75,15.08
+1331,Spiral Slide,15.13,16.88
+1332,Roller Coaster,16.9,17.32
+1333,Power Tower,17.32,17.65
+1334,Inverted Coaster,14.0,14.33
+1335,Spinning Coaster,14.33,15.08
+1336,Flying Coaster,15.13,15.88
+1337,Roller Coaster,16.02,16.6
+1338,Power Tower,16.6,16.93
+1339,Gondola,16.93,17.35
+1340,Oz Theatre,17.35,17.77
+1341,Flying Coaster,10.0,10.33
+1342,Bumper Cars,10.33,10.67
+1343,Flying Coaster,10.7,11.03
+1344,Roller Coaster,11.07,11.57
+1345,Inverted Coaster,11.57,13.15
+1346,Circus Train,13.15,13.32
+1347,Free Fall,13.32,14.9
+1348,Power Tower,14.9,15.23
+1349,Superman Ride,15.23,15.73
+1350,Rapids Ride,15.73,15.9
+1351,Bungee Jump,15.9,16.23
+1352,Sling Shot,16.23,16.57
+1353,Gondola,16.57,16.98
+1354,Top Spin,16.98,17.4
+1355,Reverse Bungee,17.4,17.52
+1356,Gondola,17.52,17.93
+1357,Water Ride,10.0,10.17
+1358,Giant Wheel,10.17,10.83
+1359,Flying Coaster,10.87,11.2
+1360,Roller Coaster,11.25,11.75
+1361,Inverted Coaster,11.75,13.33
+1362,Circus Train,13.33,13.5
+1363,Free Fall,13.5,15.08
+1364,Power Tower,15.08,15.42
+1365,Superman Ride,15.42,15.92
+1366,Flying Coaster,10.0,10.33
+1367,Merry Go Round,10.33,10.67
+1368,Merry Go Round,10.68,11.02
+1369,Roller Coaster,11.07,11.57
+1370,Inverted Coaster,11.57,13.15
+1371,Circus Train,13.15,13.32
+1372,Free Fall,13.32,14.9
+1373,Power Tower,14.9,15.23
+1374,Superman Ride,15.23,15.73
+1375,Rapids Ride,15.73,15.9
+1376,Bungee Jump,15.9,16.23
+1377,Sling Shot,16.23,16.57
+1378,Gondola,16.57,16.98
+1379,Top Spin,16.98,17.4
+1380,Reverse Bungee,17.4,17.52
+1381,Gondola,17.52,17.93
+1382,Flying Coaster,11.0,11.33
+1383,Spinning Coaster,11.33,12.0
+1384,Flying Coaster,12.13,12.55
+1385,Roller Coaster,12.68,13.1
+1386,Inverted Coaster,13.1,13.93
+1387,Gondola,13.93,14.27
+1388,Rapids Ride,14.0,14.17
+1389,Giant Wheel,14.17,15.0
+1390,Flying Coaster,15.03,15.78
+1391,Roller Coaster,15.8,16.38
+1392,Sling Shot,16.38,16.72
+1393,Giant Wheel,16.72,17.55
+1394,Rapids Ride,17.55,17.67
+1395,Spiral Slide,17.67,17.95
+1396,Merry Go Round,13.0,13.42
+1397,Flying Coaster,13.42,13.92
+1398,Dizzy Dropper,13.97,14.3
+1399,Roller Coaster,14.35,14.77
+1400,Reverse Bungee,14.77,14.88
+1401,Free Fall,14.88,15.97
+1402,Inverted Coaster,15.97,16.8
+1403,Flying Coaster,14.0,14.67
+1404,Flying Coaster,14.67,15.42
+1405,Flying Coaster,15.43,16.18
+1406,Roller Coaster,16.2,16.78
+1407,Power Tower,16.78,17.12
+1408,Gondola,17.12,17.53
+1409,Oz Theatre,17.53,17.95
+1410,Go-Karts,12.0,12.92
+1411,Flying Coaster,12.92,13.33
+1412,Rapids Ride,13.37,13.53
+1413,Roller Coaster,13.55,13.97
+1414,Inverted Coaster,13.97,14.3
+1415,Monorail,14.3,15.55
+1416,Circus Train,15.55,15.72
+1417,Sling Shot,15.72,16.05
+1418,Scooby Doo,16.05,16.8
+1419,Kiddie Coaster,16.8,17.13
+1420,Crazy Bus,17.13,17.47
+1421,Sling Shot,17.47,17.8
+1422,Circus Train,17.8,17.92
+1423,Flying Coaster,12.0,12.42
+1424,Rapids Ride,12.42,12.58
+1425,Flying Coaster,12.6,13.02
+1426,Roller Coaster,13.05,13.47
+1427,Inverted Coaster,13.47,14.3
+1428,Monorail,14.3,15.55
+1429,Circus Train,15.55,15.72
+1430,Sling Shot,15.72,16.05
+1431,Scooby Doo,16.05,16.8
+1432,Kiddie Coaster,16.8,17.13
+1433,Crazy Bus,17.13,17.47
+1434,Sling Shot,17.47,17.8
+1435,Circus Train,17.8,17.92
+1436,Go-Karts,12.0,12.92
+1437,Giant Wheel,12.92,13.67
+1438,Himalaya Ride,13.7,14.03
+1439,Roller Coaster,14.05,14.47
+1440,Reverse Bungee,14.47,14.58
+1441,Free Fall,14.58,15.67
+1442,Inverted Coaster,15.67,16.5
+1443,Inverted Coaster,11.0,11.33
+1444,Flying Coaster,11.33,11.67
+1445,Flying Coaster,11.82,12.23
+1446,Roller Coaster,12.27,12.85
+1447,Inverted Coaster,12.85,13.68
+1448,Gondola,13.68,14.02
+1449,Monorail,14.02,15.27
+1450,Roller Coaster,15.27,15.68
+1451,Zipline,13.0,13.33
+1452,Bungee Jump,13.33,13.67
+1453,Rapids Ride,13.72,13.88
+1454,Roller Coaster,13.92,14.33
+1455,Inverted Coaster,14.33,14.67
+1456,Monorail,14.67,16.0
+1457,Circus Train,16.0,16.17
+1458,Sling Shot,16.17,16.5
+1459,Scooby Doo,16.5,17.25
+1460,Kiddie Coaster,17.25,17.53
+1461,Crazy Bus,17.53,17.87
+1462,Flying Coaster,14.0,14.67
+1463,Dizzy Dropper,14.67,15.0
+1464,Swing Ride,15.03,16.03
+1465,Roller Coaster,16.07,16.65
+1466,Power Tower,16.65,16.98
+1467,Gondola,16.98,17.4
+1468,Oz Theatre,17.4,17.82
+1469,Spinning Coaster,13.0,13.67
+1470,Spinning Coaster,13.67,14.42
+1471,Flying Coaster,14.45,15.12
+1472,Roller Coaster,15.25,15.67
+1473,Sling Shot,15.67,16.0
+1474,Giant Wheel,16.0,16.83
+1475,Rapids Ride,16.83,17.0
+1476,Spiral Slide,17.0,17.28
+1477,Haunted House,17.28,17.62
+1478,Flying Coaster,14.0,14.67
+1479,Rapids Ride,14.67,14.83
+1480,Flying Coaster,14.85,15.6
+1481,Roller Coaster,15.63,16.22
+1482,Sling Shot,16.22,16.55
+1483,Giant Wheel,16.55,17.38
+1484,Rapids Ride,17.38,17.5
+1485,Spiral Slide,17.5,17.78
+1486,Flying Coaster,13.0,13.5
+1487,Flying Coaster,13.5,13.92
+1488,Swing Ride,13.97,14.97
+1489,Roller Coaster,15.0,15.42
+1490,Reverse Bungee,15.42,15.53
+1491,Free Fall,15.53,16.62
+1492,Inverted Coaster,16.62,16.73
+1493,Bungee Jump,13.0,13.33
+1494,Spinning Coaster,13.33,14.0
+1495,Kiddie Coaster,14.05,14.38
+1496,Roller Coaster,14.42,14.83
+1497,Reverse Bungee,14.83,14.95
+1498,Free Fall,14.95,16.03
+1499,Inverted Coaster,16.03,16.87
+1500,Scooby Doo,16.87,17.62
+1501,Kiddie Coaster,17.62,17.9
+1502,Spinning Coaster,12.0,12.67
+1503,Flying Coaster,12.67,13.08
+1504,Flying Coaster,13.22,13.72
+1505,Roller Coaster,13.73,14.15
+1506,Inverted Coaster,14.15,14.48
+1507,Monorail,14.48,15.73
+1508,Circus Train,15.73,15.9
+1509,Flying Coaster,14.0,14.67
+1510,Dizzy Dropper,14.67,15.0
+1511,Merry Go Round,15.02,15.6
+1512,Roller Coaster,15.62,16.2
+1513,Sling Shot,16.2,16.53
+1514,Giant Wheel,16.53,17.37
+1515,Rapids Ride,17.37,17.48
+1516,Spiral Slide,17.48,17.77
+1517,Giant Wheel,14.0,14.83
+1518,Water Ride,14.83,15.17
+1519,Himalaya Ride,15.18,15.52
+1520,Roller Coaster,15.55,16.13
+1521,Sling Shot,16.13,16.47
+1522,Giant Wheel,16.47,17.3
+1523,Rapids Ride,17.3,17.42
+1524,Spiral Slide,17.42,17.7
+1525,Kiddie Coaster,14.0,14.33
+1526,Flying Coaster,14.33,15.0
+1527,Flying Coaster,15.02,15.77
+1528,Roller Coaster,15.8,16.38
+1529,Sling Shot,16.38,16.72
+1530,Giant Wheel,16.72,17.55
+1531,Rapids Ride,17.55,17.67
+1532,Spiral Slide,17.67,17.95
+1533,Merry Go Round,13.0,13.42
+1534,Flying Coaster,13.42,13.92
+1535,Go-Karts,13.95,14.87
+1536,Roller Coaster,14.9,15.32
+1537,Reverse Bungee,15.32,15.43
+1538,Free Fall,15.43,16.52
+1539,Inverted Coaster,16.52,16.63
+1540,Scooby Doo,16.63,17.38
+1541,Kiddie Coaster,17.38,17.67
+1542,Flying Coaster,11.0,11.33
+1543,Flying Coaster,11.33,11.67
+1544,Giant Wheel,11.68,12.52
+1545,Roller Coaster,12.57,12.98
+1546,Inverted Coaster,12.98,13.82
+1547,Gondola,13.82,14.15
+1548,Monorail,14.15,15.4
+1549,Roller Coaster,15.4,15.82
+1550,Flying Coaster,14.0,14.67
+1551,Flying Coaster,14.67,15.42
+1552,Merry Go Round,15.43,16.02
+1553,Roller Coaster,16.03,16.62
+1554,Power Tower,16.62,16.95
+1555,Gondola,16.95,17.37
+1556,Oz Theatre,17.37,17.78
+1557,Rapids Ride,13.0,13.17
+1558,Flying Coaster,13.17,13.67
+1559,Go-Karts,13.68,14.6
+1560,Roller Coaster,14.63,15.05
+1561,Reverse Bungee,15.05,15.17
+1562,Free Fall,15.17,16.25
+1563,Inverted Coaster,14.0,14.33
+1564,Flying Coaster,14.33,15.0
+1565,Flying Coaster,15.15,15.9
+1566,Roller Coaster,15.92,16.5
+1567,Sling Shot,16.5,16.83
+1568,Giant Wheel,16.83,17.67
+1569,Rapids Ride,17.67,17.78
+1570,Haunted House,12.0,12.5
+1571,Merry Go Round,12.5,12.83
+1572,Flying Coaster,12.85,13.27
+1573,Roller Coaster,13.3,13.72
+1574,Inverted Coaster,13.72,14.05
+1575,Monorail,14.05,15.3
+1576,Circus Train,15.3,15.47
+1577,Sling Shot,15.47,15.88
+1578,Drop Tower,14.0,14.42
+1579,Giga Coaster,14.42,14.75
+1580,Rapids Ride,14.78,14.95
+1581,Roller Coaster,14.97,15.38
+1582,Reverse Bungee,15.38,15.5
+1583,Free Fall,15.5,16.58
+1584,Inverted Coaster,16.58,16.7
+1585,Scooby Doo,16.7,17.45
+1586,Kiddie Coaster,17.45,17.73
+1587,Flying Coaster,13.0,13.5
+1588,Giant Wheel,13.5,14.25
+1589,Spinning Coaster,14.3,15.05
+1590,Roller Coaster,15.1,15.52
+1591,Sling Shot,15.52,15.85
+1592,Giant Wheel,15.85,16.68
+1593,Rapids Ride,16.68,16.85
+1594,Giant Wheel,14.0,14.83
+1595,Flying Coaster,14.83,15.58
+1596,Merry Go Round,15.62,16.03
+1597,Roller Coaster,16.05,16.63
+1598,Power Tower,16.63,16.97
+1599,Gondola,16.97,17.38
+1600,Oz Theatre,17.38,17.8
+1601,Flying Coaster,11.0,11.33
+1602,Flying Coaster,11.33,11.67
+1603,Flying Coaster,11.68,12.1
+1604,Roller Coaster,12.15,12.73
+1605,Inverted Coaster,12.73,13.57
+1606,Gondola,13.57,13.9
+1607,Monorail,13.9,15.15
+1608,Roller Coaster,15.15,15.57
+1609,Giant Wheel,14.0,14.83
+1610,Merry Go Round,14.83,15.42
+1611,Haunted House,15.43,15.85
+1612,Roller Coaster,15.88,16.47
+1613,Sling Shot,16.47,16.8
+1614,Giant Wheel,16.8,17.63
+1615,Rapids Ride,17.63,17.75
+1616,Merry Go Round,12.0,12.33
+1617,Oz Theatre,12.33,12.62
+1618,Giga Coaster,12.65,12.98
+1619,Roller Coaster,13.0,13.42
+1620,Inverted Coaster,13.42,14.25
+1621,Gondola,14.25,14.58
+1622,Monorail,14.58,15.92
+1623,Circus Train,14.0,14.17
+1624,Superman Ride,14.17,14.67
+1625,Circus Train,14.68,14.85
+1626,Roller Coaster,14.88,15.3
+1627,Reverse Bungee,15.3,15.42
+1628,Free Fall,15.42,16.5
+1629,Inverted Coaster,16.5,17.33
+1630,Swing Ride,10.0,10.42
+1631,Giant Wheel,10.42,11.08
+1632,Haunted House,11.13,11.47
+1633,Roller Coaster,11.52,11.85
+1634,Inverted Coaster,11.85,13.43
+1635,Circus Train,13.43,13.6
+1636,Free Fall,13.6,14.85
+1637,Power Tower,14.85,15.18
+1638,Superman Ride,15.18,15.68
+1639,Rapids Ride,15.68,15.85
+1640,Merry Go Round,10.0,10.33
+1641,Spinning Coaster,10.33,10.83
+1642,Bumper Cars,10.85,11.18
+1643,Roller Coaster,11.22,11.72
+1644,Inverted Coaster,11.72,13.3
+1645,Circus Train,13.3,13.47
+1646,Free Fall,13.47,15.05
+1647,Power Tower,15.05,15.38
+1648,Superman Ride,15.38,15.88
+1649,Rapids Ride,15.88,16.05
+1650,Bungee Jump,16.05,16.38
+1651,Sling Shot,16.38,16.72
+1652,Flying Coaster,11.0,11.33
+1653,Go-Karts,11.33,12.17
+1654,Merry Go Round,12.22,12.55
+1655,Roller Coaster,12.6,13.02
+1656,Inverted Coaster,13.02,13.85
+1657,Gondola,13.85,14.18
+1658,Monorail,14.18,15.43
+1659,Roller Coaster,15.43,15.85
+1660,Superman Ride,15.85,16.35
+1661,Bungee Jump,13.0,13.33
+1662,Swing Ride,13.33,14.33
+1663,Haunted House,14.38,14.8
+1664,Roller Coaster,14.83,15.25
+1665,Reverse Bungee,15.25,15.37
+1666,Free Fall,15.37,16.45
+1667,Merry Go Round,12.0,12.33
+1668,Rapids Ride,12.33,12.5
+1669,Dizzy Dropper,12.53,12.87
+1670,Roller Coaster,12.92,13.33
+1671,Inverted Coaster,13.33,14.17
+1672,Gondola,14.17,14.5
+1673,Monorail,14.5,15.83
+1674,Roller Coaster,15.83,16.42
+1675,Superman Ride,16.42,16.92
+1676,Go-Karts,11.0,11.83
+1677,Bungee Jump,11.83,12.17
+1678,Go-Karts,12.2,13.12
+1679,Roller Coaster,13.13,13.55
+1680,Inverted Coaster,13.55,13.88
+1681,Monorail,13.88,15.13
+1682,Circus Train,15.13,15.3
+1683,Sling Shot,15.3,15.72
+1684,Scooby Doo,15.72,16.47
+1685,Kiddie Coaster,16.47,16.8
+1686,Crazy Bus,16.8,17.13
+1687,Sling Shot,17.13,17.47
+1688,Circus Train,17.47,17.58
+1689,Power Tower,17.58,17.92
+1690,Roller Coaster,10.0,10.42
+1691,Water Ride,10.42,10.58
+1692,Rapids Ride,10.6,10.77
+1693,Roller Coaster,10.8,11.3
+1694,Crazy Dance,11.3,11.63
+1695,Roller Coaster,11.63,11.97
+1696,Spiral Slide,11.97,13.47
+1697,Rapids Ride,13.47,13.63
+1698,Rapids Ride,13.63,13.8
+1699,Kiddie Coaster,13.8,14.13
+1700,Inverted Coaster,14.13,14.47
+1701,Roller Coaster,14.47,14.88
+1702,Circus Train,14.88,15.05
+1703,Scooby Doo,15.05,15.97
+1704,Sling Shot,15.97,16.3
+1705,Gondola,16.3,16.72
+1706,Crazy Dance,14.0,14.33
+1707,Flying Coaster,14.33,15.0
+1708,Himalaya Ride,15.03,15.37
+1709,Roller Coaster,15.4,15.82
+1710,Sling Shot,15.82,16.15
+1711,Giant Wheel,16.15,16.98
+1712,Rapids Ride,16.98,17.15
+1713,Spiral Slide,17.15,17.43
+1714,Haunted House,17.43,17.77
+1715,Spinning Coaster,10.0,10.5
+1716,Bungee Jump,10.5,10.83
+1717,Rapids Ride,10.87,11.03
+1718,Roller Coaster,11.08,11.58
+1719,Inverted Coaster,11.58,13.17
+1720,Circus Train,13.17,13.33
+1721,Free Fall,13.33,14.92
+1722,Flying Coaster,12.0,12.42
+1723,Merry Go Round,12.42,12.75
+1724,Giant Wheel,12.8,13.55
+1725,Roller Coaster,13.57,13.98
+1726,Inverted Coaster,13.98,14.32
+1727,Monorail,14.32,15.57
+1728,Circus Train,15.57,15.73
+1729,Sling Shot,15.73,16.07
+1730,Scooby Doo,16.07,16.82
+1731,Kiddie Coaster,16.82,17.15
+1732,Crazy Bus,17.15,17.48
+1733,Sling Shot,17.48,17.82
+1734,Circus Train,17.82,17.93
+1735,Bungee Jump,13.0,13.33
+1736,Merry Go Round,13.33,13.75
+1737,Kiddie Coaster,13.78,14.12
+1738,Roller Coaster,14.17,14.58
+1739,Reverse Bungee,14.58,14.7
+1740,Free Fall,14.7,15.78
+1741,Inverted Coaster,15.78,16.62
+1742,Flying Coaster,13.0,13.5
+1743,Flying Coaster,13.5,13.92
+1744,Rapids Ride,13.93,14.1
+1745,Roller Coaster,14.13,14.55
+1746,Reverse Bungee,14.55,14.67
+1747,Free Fall,14.67,15.75
+1748,Inverted Coaster,15.75,16.58
