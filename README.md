@@ -3,6 +3,8 @@
 ## Authors
 Cathal Brady, Dora Bijvoet, Ameya Kulkarni, Charles Siret, Hadrien Strichard, Hocine Zidi
 
+##
+
 ## Overview
 This repository contains the notebook demonstrating the code for:
 - **Predicting waiting times**
@@ -10,17 +12,20 @@ This repository contains the notebook demonstrating the code for:
 
 It also includes a **Streamlit app** to showcase a demo of the solution.
 
-> **Disclaimer:** This project is a part of a mock demo for a commercial proposal. It is not the final product and should not be treated as such.
+> **Disclaimers:**
+- This project is a part of a mock demo for a commercial proposal. It is not the final product and should not be treated as such.
+- Due to size limits of files on github, waiting_times.csv was stored using lfs, make sure to use its explicit version before running any code.
 
 ---
 
-## 📂 Notebooks Overview
+## 📂 Code Overview
 
 ### 1) Predicting Waiting Times  
-- 📌 *Notebooks go here*
+- **preprocessing_and_catboost**
 
 ### 2) Optimal Scheduling  
-- 📌 *Notebooks go here*
+- **app.py**: Code for the dynamic scheduling streamlit app
+- **capacity_utilisation**: Determines Capacity and optimal pathing
 
 ### 3) Others  
 - **ride_data**: Extracts details of rides such as capacity.  
