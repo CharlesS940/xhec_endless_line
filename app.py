@@ -7,6 +7,7 @@ import networkx as nx
 import plotly.express as px
 import plotly.graph_objects as go
 from scipy.optimize import minimize
+import itertools
 
 
 @st.cache_data
@@ -18,9 +19,13 @@ def load_data():
 def load_ride_data():
     return pd.read_csv("data/ride_capacity.csv")
 
+@st.cache_data
+def load_waiting_data():
+    return pd.read_csv("data/waiting_times.csv")
 
 synthetic_users = load_data()
 ride_capacity = load_ride_data()
+waiting_df = load_waiting_data()
 
 
 # Initialize Graph
@@ -251,25 +256,141 @@ essential_distances = [
 
 for attr1, attr2, distance in essential_distances:
     theme_park.add_manual_distance(attr1, attr2, distance)
+    
 
-
-# Optimizing Schedule for New Visitor
-def optimize_schedule(new_visitor, synthetic_users, theme_park):
+def optimize_schedule(new_visitor, synthetic_users, theme_park, waiting_df):
+    """
+    Optimize a visitor's itinerary based on predicted wait times, distance, and crowd management.
+    """
     overlapping_visitors = synthetic_users[
         (synthetic_users["entry_time"] <= new_visitor["exit_time"])
         & (synthetic_users["exit_time"] >= new_visitor["entry_time"])
     ]
+    
+    # Generate all permutations of the preferred attractions
+    attraction_permutations = list(itertools.permutations(new_visitor["preferences"]))
+    
+    best_schedule = None
+    best_score = float('-inf')
+    
+    for itinerary in attraction_permutations:
+        schedule, score = evaluate_itinerary(itinerary, new_visitor["entry_time"], waiting_df, overlapping_visitors, theme_park, new_visitor["preferences"])
+        
+        if score > best_score:
+            best_schedule = schedule
+            best_score = score
+    
+    return best_schedule
+
+def evaluate_itinerary(itinerary, start_time, waiting_df, overlapping_visitors, theme_park, user_preferences):
+    """
+    Evaluate a given itinerary based on predicted wait times, travel distance, and visitor load.
+    """
+    current_time = start_time
+    total_wait_time = 0
+    total_distance = 0
+    total_crowd_penalty = 0
     schedule = []
-    for ride in new_visitor["preferences"]:
-        suggested_ride = get_best_ride_for_visitor(
-            ride, overlapping_visitors, theme_park
-        )
-        schedule.append(suggested_ride)
-    return schedule
+    
+    for i, attraction in enumerate(itinerary):
+        # Predict wait time based on arrival time
+        predicted_wait_time = predict_wait_time(attraction, current_time, waiting_df)
+        
+        # Get ride duration
+        ride_duration = get_ride_duration(attraction, waiting_df)
+        
+        # Compute crowd penalty (number of overlapping visitors also likely to visit this attraction)
+        crowd_penalty = get_crowd_penalty(attraction, overlapping_visitors)
+        
+        # Compute distance to next attraction
+        if i > 0:
+            travel_time = get_travel_time(itinerary[i-1], attraction, theme_park)
+        else:
+            travel_time = 0
+        
+        # Update total metrics
+        total_wait_time += predicted_wait_time
+        total_distance += travel_time
+        total_crowd_penalty += crowd_penalty
+        
+        # Add to the schedule
+        next_travel_time = get_travel_time(attraction, itinerary[i + 1], theme_park) if i < len(itinerary) - 1 else 0
+        departure_time = current_time + (predicted_wait_time + ride_duration) / 60
+        
+        schedule.append({
+            "attraction": attraction,
+            "arrival_time": round(current_time, 2),
+            "wait_time": predicted_wait_time,
+            "ride_duration": ride_duration,
+            "departure_time": round(departure_time, 2),
+            "travel_time_to_next": round(next_travel_time, 2)  # Assign travel time to next attraction
+        })
+        
+        # Update current time
+        current_time += (predicted_wait_time + ride_duration + travel_time) / 60  # Convert minutes to hours
+    
+    # Compute overall score using a weighted approach (Pareto-inspired)
+    score = compute_score(total_wait_time, total_distance, total_crowd_penalty, itinerary, list(new_visitor["preferences"]))
+    
+    return schedule, score
 
+def predict_wait_time(attraction, arrival_time, waiting_df):
+    """
+    Estimate the wait time for an attraction based on the visitor's arrival time.
+    """
+    wait_times = waiting_df[(waiting_df["ENTITY_DESCRIPTION_SHORT"] == attraction)]
+    wait_times = wait_times.sort_values(by="DEB_TIME")
+    
+    closest_time = wait_times.iloc[(wait_times["DEB_TIME_HOUR"] - arrival_time).abs().argsort()[:1]]
+    return closest_time["WAIT_TIME_MAX"].values[0] if not closest_time["WAIT_TIME_MAX"].values[0] == 0 else 2  # Default to 10 min
 
-def get_best_ride_for_visitor(ride, overlapping_visitors, theme_park):
-    return ride  # Placeholder for actual optimal ride selection logic
+def get_ride_duration(attraction, waiting_df):
+    ride_time = waiting_df[waiting_df["ENTITY_DESCRIPTION_SHORT"] == attraction]["UP_TIME"]
+    return ride_time.values[0] if not ride_time.values[0] == 0 else 5  # Default to 5 min
+
+def get_travel_time(attraction1, attraction2, theme_park):
+    """
+    Get travel time between two attractions.
+    """
+    distance = theme_park.get_distance(attraction1, attraction2)
+    travel_time = distance / 100
+    return travel_time if travel_time >=1 else 1
+
+def get_crowd_penalty(attraction, overlapping_visitors):
+    """
+    Compute a penalty based on the number of other visitors likely to visit this attraction.
+    """
+    return overlapping_visitors[
+        (overlapping_visitors["ride_preference_1"] == attraction) |
+        (overlapping_visitors["ride_preference_2"] == attraction) |
+        (overlapping_visitors["ride_preference_3"] == attraction)
+    ].shape[0]
+
+def compute_score(wait_time, distance, crowd_penalty, itinerary, user_preferences):
+    """
+    Compute a weighted score balancing waiting time, distance, crowd management, and user preferences.
+    """
+    w_wait = -1       # Negative weight for wait time (lower is better)
+    w_distance = -0.5 # Negative weight for distance (lower is better)
+    w_crowd = -2      # Higher penalty for crowded attractions
+    w_pref = 3        # Positive weight for visiting top preferences first
+
+    # Calculate preference score (higher if preferred attractions appear earlier in the list)
+    preference_score = 0
+    for index, attraction in enumerate(itinerary):
+        if attraction == user_preferences[0]:  # First choice, highest boost
+            preference_score += 3
+        elif attraction == user_preferences[1]:  # Second choice, medium boost
+            preference_score += 2
+        elif attraction == user_preferences[2]:  # Third choice, lowest boost
+            preference_score += 1
+
+    return (
+        w_wait * wait_time + 
+        w_distance * distance + 
+        w_crowd * crowd_penalty + 
+        w_pref * preference_score
+    )
 
 
 # Streamlit app
@@ -304,17 +425,27 @@ exit_time = st.sidebar.slider(
 st.write("Synthetic User Data", synthetic_users)
 
 new_visitor = {
-    "preferences": preferences,
+    "preferences": [preferences[0], preferences[1], preferences[2]] if len(preferences) >= 3 else preferences,
     "entry_time": entry_time,
     "exit_time": exit_time,
 }
-optimized_schedule = optimize_schedule(new_visitor, synthetic_users, theme_park)
+
+optimized_schedule = optimize_schedule(new_visitor, synthetic_users, theme_park, waiting_df)
 
 # Show optimized schedule for the new visitor
 st.subheader("Optimized Schedule for You")
 st.write("Your optimized schedule based on your preferences and entry/exit times:")
-st.write(optimized_schedule)
 
+for stop in optimized_schedule:
+    arrival_time_formatted = f"{int(stop['arrival_time'])}h{int((stop['arrival_time'] % 1) * 60):02d}"
+    departure_time_formatted = f"{int(stop['departure_time'])}h{int((stop['departure_time'] % 1) * 60):02d}"
+
+    st.markdown(f"### ⏰ {arrival_time_formatted} - {stop['attraction']}")
+    st.write(f"**- Estimated Waiting Time:** {stop['wait_time']} min")
+    st.write(f"**- Ride Duration:** {stop['ride_duration']} min")
+    st.write(f"**- Travel Time to Next Attraction:** {round(stop['travel_time_to_next'], 2)} min")
+    st.write(f"**- Departure Time:** {departure_time_formatted}")
+    st.write('---')
 
 # Visualize Ride Activity
 def visualize_activity(ride_data, theme_park):
