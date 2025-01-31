@@ -98,6 +98,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+eleven_challenge
 
 # Spyder project settings
 .spyderproject
