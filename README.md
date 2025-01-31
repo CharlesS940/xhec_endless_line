@@ -14,7 +14,7 @@ It also includes a **Streamlit app** to showcase a demo of the solution.
 
 > **Disclaimers:**
 - This project is a part of a mock demo for a commercial proposal. It is not the final product and should not be treated as such.
-- Due to size limits of files on github, waiting_times.csv was stored using lfs, make sure to use its explicit version before running any code.
+- Due to size limits of files on github, some csv were stored using lfs, make sure to use their explicit version before running any code.
 
 ---
 
