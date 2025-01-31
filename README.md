@@ -61,6 +61,8 @@ It also includes a **Streamlit app** to showcase a demo of the solution.
    A browser window should open automatically. If not, navigate to:  
    👉 [http://localhost:8501](http://localhost:8501)
 
+> **Note:**
+If running the app causes any bugs related to missing data or key errors, please run the capacity_utilization notebook fully before running the app again.
 ---
 
 ### 🔧 Future Improvements
