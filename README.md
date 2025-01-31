@@ -14,7 +14,7 @@ It also includes a **Streamlit app** to showcase a demo of the solution.
 
 > **Disclaimers:**
 - This project is a part of a mock demo for a commercial proposal. It is not the final product and should not be treated as such.
-- Due to size limits of files on github, waiting_times.csv was stored using lfs, make sure to use its explicit version before running any code.
+- Due to size limits of files on github, some csv were stored using lfs, make sure to use their explicit version before running any code.
 
 ---
 
@@ -61,6 +61,8 @@ It also includes a **Streamlit app** to showcase a demo of the solution.
    A browser window should open automatically. If not, navigate to:  
    👉 [http://localhost:8501](http://localhost:8501)
 
+> **Note:**
+If running the app causes any bugs related to missing data or key errors, please run the capacity_utilization notebook fully before running the app again.
 ---
 
 ### 🔧 Future Improvements
