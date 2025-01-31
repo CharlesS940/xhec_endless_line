@@ -38,33 +38,52 @@ def load_attractions_location():
         "data/link_attraction_park.csv", sep=";"
     )  # which rides are in which park
 
+
 @st.cache_data
 def load_predictions():
-    return pd.read_csv("data/waiting_time_predictions.csv")  # Our predictions of waiting times
+    return pd.read_csv(
+        "data/waiting_time_predictions.csv"
+    )  # Our predictions of waiting times
+
 
 synthetic_users = load_data()
-ride_capacity = load_ride_data() 
+ride_capacity = load_ride_data()
 waiting_df = load_waiting_data()
 schedule_df = load_pathing_schedules()
 link_attractions_df = load_attractions_location()
 predictions_df = load_predictions()
 
-# Manipulating the predictions_df so that it will work 
+# Manipulating the predictions_df so that it will work
 
-predictions_df['DEB_TIME'] = pd.to_datetime(predictions_df['DEB_TIME'])
-predictions_df['WORK_DATE'] = predictions_df['DEB_TIME'].dt.date
-predictions_df['DEB_TIME_HOUR'] = predictions_df['DEB_TIME'].dt.hour
+predictions_df["DEB_TIME"] = pd.to_datetime(predictions_df["DEB_TIME"])
+predictions_df["WORK_DATE"] = predictions_df["DEB_TIME"].dt.date
+predictions_df["DEB_TIME_HOUR"] = predictions_df["DEB_TIME"].dt.hour
 
-predictions_df.rename(columns={'ride': 'ENTITY_DESCRIPTION_SHORT'}, inplace=True)
-predictions_df.rename(columns={'pred': 'WAIT_TIME_MAX'}, inplace=True)
+predictions_df.rename(columns={"ride": "ENTITY_DESCRIPTION_SHORT"}, inplace=True)
+predictions_df.rename(columns={"pred": "WAIT_TIME_MAX"}, inplace=True)
 
 # add in average up time for that ride
-predictions_df = predictions_df.merge(ride_capacity[['ENTITY_DESCRIPTION_SHORT', 'UP_TIME']], on='ENTITY_DESCRIPTION_SHORT', how='left')
+predictions_df = predictions_df.merge(
+    ride_capacity[["ENTITY_DESCRIPTION_SHORT", "UP_TIME"]],
+    on="ENTITY_DESCRIPTION_SHORT",
+    how="left",
+)
 # round the up time
-predictions_df['UP_TIME'] = predictions_df['UP_TIME'].round()  # Round to the nearest integer
+predictions_df["UP_TIME"] = predictions_df[
+    "UP_TIME"
+].round()  # Round to the nearest integer
 
-waiting_df = waiting_df[['DEB_TIME', 'ENTITY_DESCRIPTION_SHORT', 'WAIT_TIME_MAX', 'WORK_DATE', 'DEB_TIME_HOUR', 'UP_TIME']]
-    
+waiting_df = waiting_df[
+    [
+        "DEB_TIME",
+        "ENTITY_DESCRIPTION_SHORT",
+        "WAIT_TIME_MAX",
+        "WORK_DATE",
+        "DEB_TIME_HOUR",
+        "UP_TIME",
+    ]
+]
+
 # Concatenate both the predictions and waiting times to allow choice over any date in the range
 waiting_df = pd.concat([waiting_df, predictions_df], ignore_index=True)
 
@@ -315,11 +334,11 @@ def predict_wait_time(attraction, arrival_time, waiting_df):
     Predicts wait time using interpolation for more accurate results.
     """
     wait_times = waiting_df[waiting_df["ENTITY_DESCRIPTION_SHORT"] == attraction].copy()
-    
+
     if wait_times.empty:
         return 2  # Default fallback if no data available
 
-    wait_times["DEB_TIME"] = pd.to_datetime(wait_times["DEB_TIME"], errors='coerce')
+    wait_times["DEB_TIME"] = pd.to_datetime(wait_times["DEB_TIME"], errors="coerce")
     wait_times = wait_times.sort_values("DEB_TIME")
 
     # Get closest past & future times
@@ -331,7 +350,7 @@ def predict_wait_time(attraction, arrival_time, waiting_df):
         t1, w1 = before.iloc[-1][["DEB_TIME_HOUR", "WAIT_TIME_MAX"]]
         t2, w2 = after.iloc[0][["DEB_TIME_HOUR", "WAIT_TIME_MAX"]]
         return max(2, w1 + (arrival_time - t1) * (w2 - w1) / (t2 - t1))
-    
+
     elif not before.empty:
         return max(2, before["WAIT_TIME_MAX"].iloc[-1])  # Use last known value
     elif not after.empty:
@@ -339,12 +358,15 @@ def predict_wait_time(attraction, arrival_time, waiting_df):
 
     return 2  # Default fallback
 
+
 def get_ride_duration(attraction, waiting_df):
     """
     Fetches ride duration, defaulting to 5 minutes if unknown or invalid.
     """
     # Fetch the ride duration
-    ride_time = waiting_df.loc[waiting_df["ENTITY_DESCRIPTION_SHORT"] == attraction, "UP_TIME"]
+    ride_time = waiting_df.loc[
+        waiting_df["ENTITY_DESCRIPTION_SHORT"] == attraction, "UP_TIME"
+    ]
 
     # Check if the ride time is valid (not empty, not zero, and not NaN)
     if not ride_time.empty and pd.notna(ride_time.iloc[0]) and ride_time.iloc[0] > 0:
@@ -363,6 +385,7 @@ def get_travel_time(attraction1, attraction2, theme_park):
     distance = theme_park.get_distance(attraction1, attraction2)
     return max(1, distance / 100)
 
+
 def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_time):
     """
     Evaluates an itinerary and returns the schedule.
@@ -373,24 +396,29 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
     for i, attraction in enumerate(itinerary):
         wait_time = predict_wait_time(attraction, current_time, waiting_df)
         ride_duration = get_ride_duration(attraction, waiting_df)
-        travel_time = get_travel_time(itinerary[i - 1], attraction, theme_park) if i > 0 else 0
+        travel_time = (
+            get_travel_time(itinerary[i - 1], attraction, theme_park) if i > 0 else 0
+        )
 
         if current_time + (wait_time + ride_duration + travel_time) / 60 > end_time:
             break  # Stop if we exceed available time
 
         departure_time = current_time + (wait_time + ride_duration) / 60
-        schedule.append({
-            "attraction": attraction,
-            "arrival_time": round(current_time, 2),
-            "wait_time": wait_time,
-            "ride_duration": ride_duration,
-            "departure_time": round(departure_time, 2),
-            "travel_time_to_next": math.ceil(travel_time),
-        })
+        schedule.append(
+            {
+                "attraction": attraction,
+                "arrival_time": round(current_time, 2),
+                "wait_time": wait_time,
+                "ride_duration": ride_duration,
+                "departure_time": round(departure_time, 2),
+                "travel_time_to_next": math.ceil(travel_time),
+            }
+        )
 
         current_time = departure_time + travel_time / 60  # Move to the next attraction
 
     return schedule
+
 
 def optimize_schedule(new_visitor, theme_park, waiting_df, date):
     """
@@ -403,7 +431,7 @@ def optimize_schedule(new_visitor, theme_park, waiting_df, date):
 
     best_schedule, best_score = None, float("-inf")
 
-    for itinerary in itertools.permutations(sorted_preferences):
+    for itinerary in itertools.permutations(set(sorted_preferences)):
         schedule = evaluate_itinerary(
             itinerary,
             new_visitor["entry_time"],
@@ -422,6 +450,7 @@ def optimize_schedule(new_visitor, theme_park, waiting_df, date):
             best_schedule, best_score = schedule, score
 
     return best_schedule
+
 
 def get_low_wait_time_attractions(waiting_df, current_time, available_time):
     filtered = waiting_df[
@@ -442,20 +471,24 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
     for i, attraction in enumerate(itinerary):
         wait_time = predict_wait_time(attraction, current_time, waiting_df)
         ride_duration = get_ride_duration(attraction, waiting_df)
-        travel_time = get_travel_time(itinerary[i - 1], attraction, theme_park) if i > 0 else 0
+        travel_time = (
+            get_travel_time(itinerary[i - 1], attraction, theme_park) if i > 0 else 0
+        )
 
         if current_time + (wait_time + ride_duration + travel_time) / 60 > end_time:
             break  # Stop if we exceed available time
 
         departure_time = current_time + (wait_time + ride_duration) / 60
-        schedule.append({
-            "attraction": attraction,
-            "arrival_time": round(current_time, 2),
-            "wait_time": wait_time,
-            "ride_duration": ride_duration,
-            "departure_time": round(departure_time, 2),
-            "travel_time_to_next": math.ceil(travel_time),
-        })
+        schedule.append(
+            {
+                "attraction": attraction,
+                "arrival_time": round(current_time, 2),
+                "wait_time": wait_time,
+                "ride_duration": ride_duration,
+                "departure_time": round(departure_time, 2),
+                "travel_time_to_next": math.ceil(travel_time),
+            }
+        )
 
         current_time = departure_time + travel_time / 60  # Move to the next attraction
 
@@ -463,31 +496,45 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
     remaining_time = end_time - current_time
     if remaining_time > 0:
         # Look for attractions that fit within the remaining time
-        low_wait_attractions = get_low_wait_time_attractions(waiting_df, current_time, remaining_time)
-        
+        low_wait_attractions = get_low_wait_time_attractions(
+            waiting_df, current_time, remaining_time
+        )
+
         # Inside evaluate_itinerary function, in the gap-filling section:
+        visited_attractions = {s["attraction"] for s in schedule}
         for attraction in low_wait_attractions:
+            if attraction in visited_attractions:
+                continue  # Skip if already visited
             if schedule:  # If there are previous attractions
-                travel_time = get_travel_time(schedule[-1]["attraction"], attraction, theme_park)
+                travel_time = get_travel_time(
+                    schedule[-1]["attraction"], attraction, theme_park
+                )
             else:
                 travel_time = 0
-                
+
             wait_time = predict_wait_time(attraction, current_time, waiting_df)
             ride_duration = get_ride_duration(attraction, waiting_df)
-            
+
             # Check if this attraction fits in the remaining time
-            if current_time + (wait_time + ride_duration + travel_time) / 60 <= end_time:
+            if (
+                current_time + (wait_time + ride_duration + travel_time) / 60
+                <= end_time
+            ):
                 departure_time = current_time + (wait_time + ride_duration) / 60
-                schedule.append({
-                    "attraction": attraction,
-                    "arrival_time": round(current_time, 2),
-                    "wait_time": wait_time,
-                    "ride_duration": ride_duration,
-                    "departure_time": round(departure_time, 2),
-                    "travel_time_to_next": math.ceil(travel_time),  # Now properly calculated
-                })
+                schedule.append(
+                    {
+                        "attraction": attraction,
+                        "arrival_time": round(current_time, 2),
+                        "wait_time": wait_time,
+                        "ride_duration": ride_duration,
+                        "departure_time": round(departure_time, 2),
+                        "travel_time_to_next": math.ceil(
+                            travel_time
+                        ),  # Now properly calculated
+                    }
+                )
                 current_time = departure_time + travel_time / 60
-                
+
     return schedule
 
 
@@ -509,9 +556,8 @@ if len(preferences) == 3:
     generate_schedule = True
 if generate_schedule:
     optimized_schedule = optimized_schedule = optimize_schedule(
-    new_visitor, PortAventura_park, waiting_df, date_of_visit
-)
-
+        new_visitor, PortAventura_park, waiting_df, date_of_visit
+    )
 
     # st.markdown("## This is a schedule for the inputs you've given")
     # st.write(optimized_schedule)  # we can get rid of this
@@ -533,7 +579,9 @@ if generate_schedule:
 
         # Display ride details
         st.markdown(f"### ⏰ {arrival_str} - **{ride['attraction']}**")
-        st.write(f"- Estimated waiting time: Usually ~ {math.ceil(ride['wait_time'])} mins")
+        st.write(
+            f"- Estimated waiting time: Usually ~ {math.ceil(ride['wait_time'])} mins"
+        )
         st.write(f"- Ride duration: {ride['ride_duration']} mins")
         st.write(f"- Travel time to next attraction: {travel_time} min")
         st.write(f"- Departure time: {departure_str}")
@@ -721,4 +769,3 @@ if generate_schedule:
     )
 
     st.plotly_chart(fig)
-
