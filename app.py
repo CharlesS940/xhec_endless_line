@@ -493,6 +493,7 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
         current_time = departure_time + travel_time / 60  # Move to the next attraction
 
     # Fill remaining time with low-wait attractions
+    # Fill remaining time with low-wait attractions
     remaining_time = end_time - current_time
     if remaining_time > 0:
         # Look for attractions that fit within the remaining time
@@ -501,7 +502,9 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
         )
 
         # Inside evaluate_itinerary function, in the gap-filling section:
-        visited_attractions = {s["attraction"] for s in schedule}
+        visited_attractions = {
+            s["attraction"] for s in schedule
+        }  # Track visited attractions
         for attraction in low_wait_attractions:
             if attraction in visited_attractions:
                 continue  # Skip if already visited
@@ -528,11 +531,10 @@ def evaluate_itinerary(itinerary, start_time, waiting_df, date, theme_park, end_
                         "wait_time": wait_time,
                         "ride_duration": ride_duration,
                         "departure_time": round(departure_time, 2),
-                        "travel_time_to_next": math.ceil(
-                            travel_time
-                        ),  # Now properly calculated
+                        "travel_time_to_next": math.ceil(travel_time),
                     }
                 )
+                visited_attractions.add(attraction)  # Mark as visited
                 current_time = departure_time + travel_time / 60
 
     return schedule
